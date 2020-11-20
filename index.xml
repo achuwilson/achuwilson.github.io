@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Achu Wilson</title>
+    <link>https://achuwilson.github.io/</link>
+      <atom:link href="https://achuwilson.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Achu Wilson</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Achu Wilson 2020</copyright><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://achuwilson.github.io/img/pom-card.png</url>
+      <title>Achu Wilson</title>
+      <link>https://achuwilson.github.io/</link>
+    </image>
+    
+    <item>
+      <title>In-Hand Rolling</title>
+      <link>https://achuwilson.github.io/project/2020-in-hand-rolling/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2020-in-hand-rolling/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#previous-works&#34;&gt;Previous works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#status&#34;&gt;Status&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#going-further&#34;&gt;Going Further&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;This is quite recent and an exploratory side project. Recently for another project, I trained a CNN to classify the objects being grasped by a hand which has GelSight based tactile sensors. It worked pretty good (~90% accuracy) on my test objects. Analysing the false classifications indicated that the tactile data may not be perfect during all the grasps. We humans also gets confused in the same way occasionally, if we grab objects with just two fingers. We would then either proceed to close the fingers to make more contact surface area with the object or roll the object between our fingers to classify it. This would then give us more data and increases our belief probability.&lt;/p&gt;
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+&lt;p&gt;Much research has been done in tactile object recognition as well as in hand manipulation
+&lt;a href=&#34;https://core.ac.uk/download/pdf/77000058.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;, 
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/7363508&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2]&lt;/a&gt;. Unlike those approaches. this work explores on learning a finger movement repertoire, that could maximize the in-hand object recognition/localization capabilities.&lt;/p&gt;
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;The following video shows the prototype gripper classifying two test objects (geodesic spheres with hexagonal and triangular faces, that can be better felt by touch)&lt;/p&gt;
+&lt;iframe src=&#34;https://drive.google.com/file/d/1bOfoukle06T8DrrSyyc8ingNUB5qe8He/preview&#34; width=&#34;640&#34; height=&#34;480&#34; align =&#34;center&#34; &gt;&lt;/iframe&gt;
+&lt;p&gt;We can see that it falsely classifies objects once in a while.&lt;/p&gt;
+&lt;p&gt;A modular 3rd axis is inserted in between the finger and the gripper, which can rotate the object in hand.&lt;/p&gt;
+&lt;iframe src=&#34;https://drive.google.com/file/d/1L_x2ZVm-HVFxSDLjEirT3ZcQ40vBXKNi/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;The classification probabilities during this motion are averaged to get a more accurate estimate of the object.&lt;/p&gt;
+&lt;p&gt;(Note: it has been tested only with symmetric objects, which are easy to roll and is still an ongoing project)&lt;/p&gt;
+&lt;h2 id=&#34;going-further&#34;&gt;Going Further&lt;/h2&gt;
+&lt;p&gt;More experimentation, 3D reconstruction using techniques using ICP.&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digger Finger: GelSight for Granular Media</title>
+      <link>https://achuwilson.github.io/publication/2020-digger/</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/publication/2020-digger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BlindGrasp</title>
+      <link>https://achuwilson.github.io/project/2020-blindgrasp/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2020-blindgrasp/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#previous-works&#34;&gt;Previous works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#how&#34;&gt;How&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#status&#34;&gt;Status&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;BlindGrasp, as the name implies, aims at grasping objects when the robot&amp;rsquo;s eyes are blindfolded. This idea had been lingering in my mind, ever since I came across the GelSight optical tactile sensor. It is a tough and challenging problem and I have been making slow, yet good progress. This is the main project that I am spending my time now and has helped us to be the finalist in the &lt;em&gt;Kuka Innovation Award 2021&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Humans have excellent grasping capabilities in unstructured environments which are still unmatched by robots. This can be attributed to the dexterous human hand, robust visual and tactile sensing capabilities as well as to the intelligent brain which makes conscious and subconscious decisions.&lt;/p&gt;
+&lt;p&gt;Visual sensing is traditionally used extensively in robotics when compared to tactile sensing. Tactile sensing is harder, mainly due to the difficulty in interpreting and making sense of the complex tactile signals. The recent developments in machine learning - particularly Deep Reinforcement Learning has opened new possibilities in the making usage of such complex data.&lt;/p&gt;
+&lt;p&gt;We humans can effortlessly put a hand inside a bag, search by moving it around and pick up an item or we can use our hands to dig or sieve through granular medium like sand and pick up an object. This project explores building a system which learns manipulation and grasping skills in such vision denied environments.&lt;/p&gt;
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+&lt;p&gt;Grasping objects, using tactile sensing alone as well as in granular media are explored more recently. Following are some of the early works.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.robotics.stanford.edu/~ang/papers/icra09-ProximityGrasping.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reactive Grasping Using Optical Proximity Sensors&lt;/a&gt; by Kaijen Hsaio et al.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://choice.umn.edu/deep-learning-approach-grasping-invisible&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Deep Learning Approach to Grasping the Invisible&lt;/a&gt;, by Yang Yang et al.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/9158928&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vibro-Tactile Foreign Body Detection in Granular Objects based on Squeeze-Induced Mechanical Vibrations&lt;/a&gt; by Togzhan Syrymova et al.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://arxiv.org/abs/1909.04787&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MAT: Multi-Fingered Adaptive Tactile Grasping via Deep Reinforcement Learning&lt;/a&gt; by Bohan Wu et al.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://arxiv.org/abs/1805.04201&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learning to Grasp without Seeing&lt;/a&gt; by Adithyavairavan Murali et al.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#&#34;&gt;Multimodal Haptic Perception within Granular Media via Recurrent Neural Networks&lt;/a&gt; by S.Jia et al.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are almost no works combining tactile sensing- exploration and grasping objects in granular media&lt;/p&gt;
+&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
+&lt;p&gt;Bringing such novel manipulation capabilities to robots calls for better robot hands as well as algorithms. The stated goals of the project are&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Building a novel tactile sensing capable gripper&lt;/li&gt;
+&lt;li&gt;Develop AI techniques to make the robot learn how to explore, detect and grasp objects in unstructured-vision denied environments where tactile sensing only could be used.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The Tactile Sensing Gripper consists of a two finger parallel jaw gripper, with tactile sensing capabilities. Similar to the human fingers, the inner surface of the fingers would be having a high spatial resolution tactile sensing capability and the outer surface comparatively lower resolution. The highly sensitive inner surface of the finger helps in recognizing objects from their shape, texture as well as in fine manipulation skills. The lower sensitive outer surface helps in detecting the presence of nearby objects via contact.&lt;/p&gt;
+&lt;p&gt;The AI System consists of a Deep Reinforcement Learning Agent that learns how to explore the environment and to recognize/differentiate objects and pick them up. The agent uses data from the two types of tactile sensors on each of the fingers, proprioception and force sensor data from the robot arm. The agent decides the direction of motion of the end effector and the control of the gripper.&lt;/p&gt;
+&lt;p&gt;As a relatively simple task to start with, grasping specific objects from an environment similar to the following setup will have to be acheived using the tactile sensing alone.&lt;/p&gt;
+
+
+
+
+
+&lt;img src=&#34;https://achuwilson.github.io/project/2020-blindgrasp/pick1_hu5216c571185a4b1be355b78cbb1a0511_203481_450x450_fit_lanczos_2.png&#34; width=&#34;415&#34; height=&#34;450&#34; alt=&#34;picking task 1&#34;&gt;
+
+&lt;p&gt;Ultimately, the robot is expected to learn how to pick up objects under the granular media as in the following simulation.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/a2rk8dN3KsA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;A novel gripper, with tactile sensing around the finger is built and we are collecting data from the real world environment. This would be augmented with data from the simulated environment and human demonstrations to train the RL agent for the task.&lt;/p&gt;
+&lt;p&gt;More updates coming soon, as it is an ongoing project..!&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sharing on Short Notice</title>
+      <link>https://achuwilson.github.io/talk/2020-sharing-short-notice/</link>
+      <pubDate>Tue, 31 Mar 2020 09:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/talk/2020-sharing-short-notice/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This webinar was designed to help educators who needed to quickly transition to remote teaching due to COVID-19.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Educators create a lot of files for teaching- slides, exercises, solutions, assignments, data, figures- that all ultimately need to be shared with other people. Having a link for sharing your teaching materials can save you time and pain, but it is hard to get started if you’ve never shared your resources online before. In this webinar, we’ll give a tour of the R Markdown ecosystem for educators that you can start to use right away. We’ll show how it can help you make your teaching more shareable, reproducible, and resilient.&lt;/p&gt;
+&lt;p&gt;Read the accompanying Q&amp;amp;A blog post on the 
+&lt;a href=&#34;https://education.rstudio.com/blog/2020/04/sharing-on-short-notice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio Education blog&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Background segmentation</title>
+      <link>https://achuwilson.github.io/project/2020-fingervision-seg/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2020-fingervision-seg/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#previous-works&#34;&gt;Previous works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#how&#34;&gt;How&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#result&#34;&gt;Result&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;FingerVision is an optical tactile sensor
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/7803400&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;, which provides the RGB image of the object within the fingers in addition to the contact forces from the optical markers.&lt;/p&gt;
+&lt;p&gt;Since the sensor captures the image of the background also in addition to the object, we need to seperate out the object and the background.&lt;/p&gt;
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;to update later&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
+&lt;p&gt;A deep learning approach is used to segment the objects and the background. Training data is collected, manually labelled and a U-Net based network is trained.
+The training acheives good accuracy in a couple of tens of minutes. Transfer learning methods could be used to quickly adapt to new environments.&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;It works, as expected.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/XZOl3pS5oLY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The left side shows the raw sensor image and the right one is the segmented image output.&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chero</title>
+      <link>https://achuwilson.github.io/project/2019-chero/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2019-chero/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#previous-works&#34;&gt;Previous works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-makes-it-special&#34;&gt;What makes it special&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#status&#34;&gt;Status&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#going-further&#34;&gt;Going Further&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;Chero is my acronym for  Chef-Robot, an ongoing project motivated by my desire to have a personal robot arm to experiment with. My long term dream of such a robot was triggered into action by the  MIT Collaborative Intelligence Challenge 2019, in which I gave a try. In addition, it as an interesting challenge and learning oppertunity to build such a system from grounds up - mechanical design-electronics controls.&lt;/p&gt;
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+&lt;p&gt;Direct drive robots are, as the name implies, are robots in which the motors directly drive the shaft without using a gearbox. It was introduced by Asada et al as early as early 80s 
+&lt;a href=&#34;https://www.ri.cmu.edu/pub_files/pub4/asada_haruhiko_1981_1/asada_haruhiko_1981_1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;,
+&lt;a href=&#34;https://mitpress.mit.edu/books/direct-drive-robots&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2]&lt;/a&gt;. Direct drive robots have many inherent advantages like better torque control, dynamic response, zero backlash and friction etc. Despite all these advantages, the main disadvantage that prevented direct drive robots from becoming mainstream is mainly the low torque density of electrical motors. However, recent advancements in technology has brought us high torque BLDC motors, which are used either used directly or in combination with a  low gear ratio (&amp;lt;10) reducer. Notable robots include berkeley openarms
+&lt;a href=&#34;https://berkeleyopenarms.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[3]&lt;/a&gt;,   and numerous quadrupeds like MIT Cheetah 
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/6631038&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;4&lt;/a&gt; and works by Gavin Kenneally et al
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/7403902&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[5]&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-makes-it-special&#34;&gt;What makes it special&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Quasi-Direct Drive&lt;/li&gt;
+&lt;li&gt;Spherical shoulder and wrist joints&lt;/li&gt;
+&lt;li&gt;Redundant Robot - 7DOF&lt;/li&gt;
+&lt;li&gt;Cheap and affordable&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The Quasi- Direct drive system consists of timing belt driven axes with a reduction ratio of 3. High torque density gimbal BLDC motors are used to actuate these joints.&lt;/p&gt;
+&lt;p&gt;The robot also has spherical joints at both the shoulder and the wrist, which matches closely with human arms.  It is shown that such a wrist design can be quite helpful in dexterous manipulation applications 
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/8624352&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[6]&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;The design is almost complete, parts machined-3dprinted and a video of first 4 DOF can be seen below
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/R1Q4KODC1f4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;A 3DOF spherical wrist is also designed and assembled. It will be attached soon.&lt;/p&gt;
+&lt;h2 id=&#34;going-further&#34;&gt;Going Further&lt;/h2&gt;
+&lt;p&gt;Implementing controllers, integrating with Drake&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design of a Fully Actuated Robotic Hand With Multiple Gelsight Tactile Sensors</title>
+      <link>https://achuwilson.github.io/publication/2019-gelsighthand/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/publication/2019-gelsighthand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gelsight Gripper</title>
+      <link>https://achuwilson.github.io/project/2019-gelsighthand/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2019-gelsighthand/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;#results&#34;&gt;Results&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;#going-further&#34;&gt;Going Further&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;This  work  details  the  design  of  a  novel  two  fin-ger  robot  gripper  with  multiple  Gelsight  based  optical-tactilesensors  covering  the  inner  surface  of  the  hand.  The  multipleGelsight  sensors  can  gather  the  surface  topology  of  the  objectfrom  multiple  views  simultaneously  as  well  as  can  track  theshear  and  tensile  stress.  In  addition,  other  sensing  modalitiesenable  the  hand  to  gather  the  thermal,  acoustic  and  vibrationinformation from the object being grasped. The force controlledgripper is fully actuated so that it can be used for various graspconfigurations  and  can  also  be  used  for  in-hand  manipulationtasks.  Here  we  present  the  design  of  such  a  gripper.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;h4 id=&#34;workshop-paperpdf2019-gelsighthand-irospdf&#34;&gt;
+&lt;a href=&#34;https://achuwilson.github.io/pdf/2019-gelsighthand-iros.pdf&#34;&gt;Workshop Paper&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;videohttpsyoutube4hxsz9nhjwi&#34;&gt;
+&lt;a href=&#34;https://youtu.be/4hxsZ9nHJWI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Video&lt;/a&gt;&lt;/h4&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/4hxsZ9nHJWI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;going-further&#34;&gt;Going Further&lt;/h2&gt;
+&lt;p&gt;In hand manipulation tasks, object localisation&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GelSight Simulation for Sim2Real Learning</title>
+      <link>https://achuwilson.github.io/publication/2019-getsight-sim2real/</link>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/publication/2019-getsight-sim2real/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gelsight for Sim2Real</title>
+      <link>https://achuwilson.github.io/project/2019-gelsight_sim2real/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2019-gelsight_sim2real/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#previous-works&#34;&gt;Previous works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-makes-it-special&#34;&gt;What makes it special&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#result&#34;&gt;Result&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;This work explores simulating Gelsight so that agents can be trained in simulation and transferred to real hardware systems with minimal/no difficulties. This would require high fidelity simulation of the GelSight sensor.&lt;/p&gt;
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+&lt;p&gt;My initial approach
+&lt;a href=&#34;#&#34;&gt;[1]&lt;/a&gt; in simulating Gelsight used raytracing techniques to recreate the 3d pointcloud of the contact surface geometry. In reality, a Poisson solver based surface reconstruction is used to reconstruct the depth image and normals from the gradient image.&lt;/p&gt;
+&lt;h2 id=&#34;what-makes-it-special&#34;&gt;What makes it special&lt;/h2&gt;
+&lt;p&gt;This approach simulates the raw gradient RGB image coming from the sensor.&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;The following image shows a comparison of the simulated image and the image acquired from the real sensor on similar objects.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sim2real.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The top row of images are acquired from the hardware and the bottom one is the simulated one.&lt;/p&gt;
+&lt;p&gt;Here is a 
+&lt;a href=&#34;https://achuwilson.github.io/pdf/2019-sim2real-icra.pdf&#34;&gt;paper&lt;/a&gt; detailing the approach, and presented at ICRA 2019 ViTac Workshop.&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PulleyDrive</title>
+      <link>https://achuwilson.github.io/project/2019-pulleydrive/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2019-pulleydrive/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#previous-works&#34;&gt;Previous works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-makes-it-special&#34;&gt;What makes it special&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#status&#34;&gt;Status&lt;/a&gt;
+5&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;PulleyDrive is a side project exploring speed reduction/torque amplification using the principle of pulleys. This project was supported by the &amp;ldquo;ProjXpo&amp;rdquo; program under MIT Innovation Initiative.&lt;/p&gt;
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+&lt;p&gt;This work was mainly inspired by the cable-pulley based actuation of the Ambidex robot 
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/8016639&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-makes-it-special&#34;&gt;What makes it special&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Zero Backlash&lt;/li&gt;
+&lt;li&gt;LightWeight&lt;/li&gt;
+&lt;li&gt;High Stiffness&lt;/li&gt;
+&lt;li&gt;Not Expensive&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;The following video shows a prototype in operation.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/e1tY6uB41l4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://achuwilson.github.io/projects/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://achuwilson.github.io/about/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://achuwilson.github.io/resume/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks &amp; Workshops</title>
+      <link>https://achuwilson.github.io/talks/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LICENSE: CC-BY-SA</title>
+      <link>https://achuwilson.github.io/license/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>https://achuwilson.github.io/license/</guid>
+      <description>&lt;p&gt;My 
+&lt;a href=&#34;https://achuwilson.github.io/post/&#34;&gt;blog posts&lt;/a&gt; are released under a 
+&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;/p&gt;
+&lt;center&gt;
+&lt;i class=&#34;fab fa-creative-commons fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-by fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-sa fa-2x&#34;&gt;&lt;/i&gt;
+&lt;/center&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modular, Whole Finger Tactile Sensing Gripper</title>
+      <link>https://achuwilson.github.io/publication/2018-finger-icra/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/publication/2018-finger-icra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Round Tactile Sensing Finger</title>
+      <link>https://achuwilson.github.io/project/2018-roundfinger/</link>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2018-roundfinger/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#previous-works&#34;&gt;Previous works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-makes-it-special&#34;&gt;What makes it special&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#status&#34;&gt;Status&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#going-further&#34;&gt;Going Further&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#subsequent-works&#34;&gt;Subsequent Works&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;Robot fingers are almost always flat and rectangular. This is owing to their simplicity in design, control and better contact surface area, thereby giving a better grip.&lt;/p&gt;
+&lt;p&gt;However, human fingers are round and more streamlined. It helps hand to navigate/explore in cluttered environments without much difficulty. In addition, the tactile sensing capability all around the human finger surface helps in making better sense of the environment contacts.&lt;/p&gt;
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;#to be update later&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-makes-it-special&#34;&gt;What makes it special&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Round the surface tactile sensing&lt;/li&gt;
+&lt;li&gt;Simple construction&lt;/li&gt;
+&lt;li&gt;Cheap and affordable&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The cross sectional view of the finger is as shown below
+&lt;img src=&#34;modfinger1.jpg&#34; alt=&#34;Tactile Round Finger, Sectional View&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It consists of a cylindrical glass tube coated with a layer of transparent silicone elastomer. The deformable elastomer has colored markers on its outer surface, which is then tracked by a wide angle camera placed at one end of the glass tube. The camera is able to get a 360 degree image of the surface of the finger, which is then de-warped to rectangular images for better understanding and processing. The other end of the tube has a spherical mirror. The reflected image of the markers from the spherical mirror provides view from another angle and is intended to be used in future to reconstruct the three dimensional position of the markers using stereo reconstruction.&lt;/p&gt;
+&lt;p&gt;Using off the shelf components ensured that the cost of the modular tactile finger is kept low. A 75 x 12 mm laboratory test tube is used as the cylindrical tube. The elastomer has Shore A hardness of 15 and is made using high transparent platinum cure silicone, which is molded into a thin sheet and wrapped over the test tube. The parabolic mirror is made using a chrome coated metal ball bearing. The finger is compatible with commonly available webcams and better results were obtained using a wide angle Raspberry Pi Camera.&lt;/p&gt;
+
+
+
+
+
+&lt;img src=&#34;https://achuwilson.github.io/project/2018-roundfinger/modfinger2_hu8a6b4578a9891b16984e60644ebb7f80_1251968_350x350_fit_q90_lanczos.jpg&#34; width=&#34;281&#34; height=&#34;350&#34; alt=&#34;Modular Finger&#34;&gt;
+
+&lt;p&gt;A two finger parallel gripper configuration can be easily achieved using such a finger
+
+
+
+
+
+&lt;img src=&#34;https://achuwilson.github.io/project/2018-roundfinger/modfinger4_hud9647231be864811fc59faa85c73d3b7_13259_350x350_fit_lanczos_2.png&#34; width=&#34;208&#34; height=&#34;350&#34; alt=&#34;Modular Finger&#34;&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;The following image shows the raw output from the camera
+
+
+
+
+
+&lt;img src=&#34;https://achuwilson.github.io/project/2018-roundfinger/raw_hu2370913120953bb7a5b23bac81215b84_113488_350x350_fit_q90_lanczos.jpg&#34; width=&#34;350&#34; height=&#34;263&#34; alt=&#34;Alternate Text&#34;&gt;
+
+and then it is pre-processed and the dots are tracked for its position
+
+
+
+
+
+&lt;img src=&#34;https://achuwilson.github.io/project/2018-roundfinger/im_tracking_hu6d075425c3e1aa968eaa100ca478f374_45867_350x350_fit_q90_lanczos.jpg&#34; width=&#34;350&#34; height=&#34;339&#34; alt=&#34;Alternate Text&#34;&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;going-further&#34;&gt;Going Further&lt;/h2&gt;
+&lt;p&gt;The next steps would be attaching it to a gripper and collecting real world data.&lt;/p&gt;
+&lt;h2 id=&#34;subsequent-works&#34;&gt;Subsequent Works&lt;/h2&gt;
+&lt;p&gt;These are some subsequent works by others and could be references for future works.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2008.05404&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GelTip: A Finger-shaped Optical Tactile Sensor for Robotic Manipulation&lt;/a&gt; by Daniel Gomes et al.
+&lt;a href=&#34;https://danfergo.github.io/geltip/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[website]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2004.00685&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Sensorized Multicurved Robot Finger with Data-driven Touch Sensing via Overlapping Light Signals&lt;/a&gt; by Pedro Placenza et al. 
+&lt;a href=&#34;https://youtu.be/PVw8Qy7BHU0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[video]&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gelsight Simulation 1</title>
+      <link>https://achuwilson.github.io/project/2017-gelsight_sim/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2017-gelsight_sim/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#how&#34;&gt;How&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#result&#34;&gt;Result&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;This is my initial approach in modelling the behaviour of GelSight tactile sensors in simulation. I resorted to simulation as I did not have access to the real sensor or resources to build one.&lt;/p&gt;
+&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
+&lt;p&gt;I used the physics simulator Bullet. It had softbody simulation, which I thought would be useful for simulating the elastomer of GelSight. But it turned out that the softbody simulation was a basic and needed much more development. So, I indirectly modelled Gelsight using the raytest functionality in bullet. It returns the depth at which a ray makes contact with a solid body.&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;Following is the video of the simulated gelsight gripper. The Kuka iiwa has a WSG 50 gripper fitted with a gelsight sensor. The sensor has a sensing area of 24x24mm and has a resolution of 256x256 pixels in the planar sensing area. It outputs standard ROS 3D pointcloud data, which is displayed in RViz.The simulation was run in my laptop and the pointcloud could be generated at 5Hz
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/IO02smLcDQE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Even though I could simulate the sensor, I soon ran into comptational limits of my laptop. &lt;/DIV&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design and Development of a Magneto-Rheological Linear Clutch for Force controlled Human Safe Robots</title>
+      <link>https://achuwilson.github.io/publication/2017-magnetorheological-clutch/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/publication/2017-magnetorheological-clutch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quadruped with Active spine</title>
+      <link>https://achuwilson.github.io/project/2017-activespine_quadruped/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2017-activespine_quadruped/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#previous-works&#34;&gt;Previous Works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#results&#34;&gt;Results&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#status&#34;&gt;Status&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;This is a side project to explore whether quadrupeds can be made to land on all four legs safely after they are dropped/thrown in random orientations.&lt;/p&gt;
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Cat_righting_reflex&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cat righting reflex&lt;/a&gt; been extensively studied before. In 1942 US Air Force played with kittens in microgravity. The same lab, in 1962, published a report titled 
+&lt;a href=&#34;http://www.dtic.mil/dtic/tr/fulltext/u2/400354.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weightless Man: Self-Rotation Techniques&lt;/a&gt;, as a guidline for future astronauts on how to move around in zero gravity. 1960s. The falling cat was also studiedextensively by NASA to prepare the astronauts for Zero-G environments. A 1969 paper titled 
+&lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/0020768369900869&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Dynamical Explanation of the Falling Cat Phenomenon&lt;/a&gt; explains this.&lt;/p&gt;
+&lt;p&gt;Past research attributes the cat reflex to law of conservation of momentem. Flexible bodies can generate internal forces and moments, by the motion of limbs. But the rest of the body rotates in opposite direction owing to the conservation of momentum, so that net angular momentum remains zero. However the rate of rotation can be controlled by extending or pulling back the limbs. Wikipedia summarises it to three key steps:&lt;/p&gt;
+&lt;p&gt;1.Bend in the middle so that the front half of their body rotates about a different axis from the rear half.
+2.Tuck their front legs in to reduce the moment of inertia of the front half of their body and extend their rear legs to increase the moment of inertia of the rear half of their body so that they can rotate their front further (as much as 90°) while the rear half rotates in the opposite direction less (as little as 10°).
+3.Extend their front legs and tuck their rear legs so that they can rotate their rear half further while their front half rotates in the opposite direction less.&lt;/p&gt;
+&lt;p&gt;Depending on the cat’s flexibility and initial angular momentum, if any, the cat may need to perform steps two and three repeatedly in order to complete a full 180° rotation.&lt;/p&gt;
+&lt;p&gt;Past works on using active spine in legged robots specialized rotation in the axis perpendicular to the saggital plane and was aimed at improving the gait. My research focusess on rotation in the axis perpendicular to the transverse plane. I developed an inertial reoreintation controller. It controls the extension and tucking in of the quadruped limbs, so that the cranial and caudal part rotates with different velocities owing to the conserved momentum. The controller thus uses the inertia of the quadruped to reorient itself.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;A quadruped was modelled in the Bullet simulator and a simple state machine based controller was implemented. It works beautifully as in the following video&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/4Hg29l2iCJo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;As the system is verified in simulation, now it has to be implemented in hardware.
+I am working on a small quadruped during freetime and it will be updated later.&lt;/p&gt;
+&lt;p&gt;Here are some photos of it in progress.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+&lt;img src=&#34;https://achuwilson.github.io/project/2017-activespine_quadruped/quad1_hub3d4f15a59a31c668d66105d0dde93e6_333603_450x450_fit_q90_lanczos.jpg&#34; width=&#34;450&#34; height=&#34;338&#34; alt=&#34;quadruped image 1&#34;&gt;
+
+
+
+
+
+
+&lt;img src=&#34;https://achuwilson.github.io/project/2017-activespine_quadruped/quad2_hu86232e7e403934dbd3ee3c0182a4e2fe_299174_450x450_fit_q90_lanczos.jpg&#34; width=&#34;450&#34; height=&#34;338&#34; alt=&#34;quadruped image 2&#34;&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;will be updated later as time permits.&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MR CLutch</title>
+      <link>https://achuwilson.github.io/project/2017-mrclutch/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2017-mrclutch/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;#result&#34;&gt;Result&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;This work proposes a Magneto Rheological linear clutch  for  use  in  human  safe  robotic  applications.  The  force  transmitted to the links of the robot must be precisely controlled for  any  manipulator  if  it  has  to  be  operated  safely  alongside  humans.  The  traditional  approaches  to  this  problem  is  using  various    compliant    actuating    schemes    like    Series    Elastic    Actuators,  Joint  Torque  Control  etc.  Research  on  the  usage  of  smart  materials  that  change  their  properties  on  application  of  electrical or magnetic fields for human safe robots have gained momentum  recently.  Studies  on  the  feasibility  of  Magneto-Rheological   actuators   has   been   done   already.   This   paper   introduces a MR clutch which can control the force transmitted by a linear actuator. The electromechanical model of the linear clutch has been developed, implemented in hardware, and tested using a prototype one Degree of Freedom arm. The design of the clutch is detailed and the performance is characterized thorough a series of experiments. The results suggest that the linear clutch serves well for the precise force control of a linear actuator.&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;h4 id=&#34;conference-paperpdf2017-mr-clutch-icrapdf&#34;&gt;
+&lt;a href=&#34;https://achuwilson.github.io/pdf/2017-mr-clutch-icra.pdf&#34;&gt;Conference Paper&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;videohttpsyoutubees0q4eb1tyo&#34;&gt;
+&lt;a href=&#34;https://youtu.be/ES0q4eb1TYo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Video&lt;/a&gt;&lt;/h4&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ES0q4eb1TYo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robot arm for testing of touchscreen applications </title>
+      <link>https://achuwilson.github.io/publication/2017-touchtest-patent/</link>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/publication/2017-touchtest-patent/</guid>
+      <description>&lt;p&gt;Publication Number WO/2017/051263&lt;/p&gt;
+&lt;p&gt;Publication Date 30.03.2017&lt;/p&gt;
+&lt;p&gt;International Application No. PCT/IB2016/053292&lt;/p&gt;
+&lt;p&gt;International Filing Date 04.06.2016&lt;/p&gt;
+&lt;p&gt;IPC G06F 11/22 2006.01&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2048 Solver Robot</title>
+      <link>https://achuwilson.github.io/project/2015-2048/</link>
+      <pubDate>Tue, 27 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2015-2048/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#How&#34;&gt;How&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#result&#34;&gt;Result&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;2048
+&lt;a href=&#34;https://en.wikipedia.org/wiki/2048_%28video_game%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;  is a single-player sliding block puzzle game. The objective of the game is to slide numbered tiles on a grid to combine them to create a tile with the number 2048.&lt;/p&gt;
+&lt;p&gt;This was a weekend hobby project, to make use of a robot arm, computer vision and AI techniques to solve and play the game.&lt;/p&gt;
+&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
+&lt;p&gt;The state of the game is inferred from the smartphone screen. Screenshots are perodically captured via the ADB interface. The image is pre-processed and an OCR is done to detect the digits on each tile.&lt;/p&gt;
+&lt;p&gt;Given the current game state, an alpha-beta pruning algorithm predicts the next best action. The action space is swipe in Left/Right/Up/Bottom directions. The robot arm then would move towards the screen and make the swipe&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;See for yourself!.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hUNTeZJSUWE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It not only wins the game, but also scores unbelievable scores.&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomous Drone Landing</title>
+      <link>https://achuwilson.github.io/project/2015-quadrotor_landing/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2015-quadrotor_landing/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#results&#34;&gt;Results&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;This was a small project done for the qualification round of MBZIRC Challenge 2015. The drone would lift off, move in a circular pattern with incrasing readius and searching for the marker using the downward facing camera. Once the marker is localized, a simple path planner is used to plan the trajectory to land the drone on the rover.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;Even though we didnt make it to the finals, it was a good learning experience.&lt;/p&gt;
+&lt;p&gt;Here is a video of it.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/QIklrzh8k6U&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chippu</title>
+      <link>https://achuwilson.github.io/project/2010-chippu/</link>
+      <pubDate>Thu, 27 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2010-chippu/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;Chippu was a small social robot made as a side project. It could understand speech commands, make conversations, recocnize faces and navigate on his own using SLAM and help me with my emails and calender, like an assistant. All the functionalities was implemented using the publically available packages in ROS. This was an attempt to learn and get familiar with ROS by building something.&lt;/p&gt;
+&lt;p&gt;Here are some of the videos of chippu.&lt;/p&gt;
+&lt;p&gt;Just moving around
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/KoJ7E7-5jwo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Speech recognition was implemented using Julius and trained with my voice.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/zO5MvISidJI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HAPS</title>
+      <link>https://achuwilson.github.io/project/2011-haps/</link>
+      <pubDate>Wed, 27 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2011-haps/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;#results&#34;&gt;Results&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;This is my undergraduate college project.&lt;/p&gt;
+&lt;p&gt;A high altitude platfrom based communication system, which can be rapidly deployed using a balloon is designed and implemented. It is similar to the Project Loon by Google, which was later announced.&lt;/p&gt;
+&lt;p&gt;This page will be updated later as time permits and more details are 
+&lt;a href=&#34;https://achuwilson.wordpress.com/2012/05/18/long-range-rf-link-using-nrf24l01-rf-transceiver/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;We could not deploy it on a real weather balloon as we were constrained by resources. Instead, the developed system was fixed at the top of a high rise building and we were able to make long distance communication beyond line of sight, using the system as a transponder.&lt;/p&gt;
+&lt;p&gt;In addition, we won the &lt;strong&gt;Best Project Award&lt;/strong&gt; from the college for the year of 2012.&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RollerBot</title>
+      <link>https://achuwilson.github.io/project/2009-rollerbot/</link>
+      <pubDate>Tue, 27 Apr 2010 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2009-rollerbot/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;p&gt;RollerBot is a two wheeled, cylindrical robot, which could be used for remote surveillance applications. It drew inspiration from the Recon Scout ThrowBot
+&lt;a href=&#34;#&#34;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;rollerbot-fullsize.jpg&#34; alt=&#34;Roller Bot&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The main body is made from a PVC pipe which houses the batteries, motors, Camera+Mic, AV transmitter and the RF remote control receiver. The robot is controlled from a remote handheld controller over an RF link. The wheels are custom made and a small leg provides the reaction force for the wheels.&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Notice Board</title>
+      <link>https://achuwilson.github.io/project/2009-smart_notice_board/</link>
+      <pubDate>Sat, 27 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2009-smart_notice_board/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#how&#34;&gt;How&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#results&#34;&gt;Results&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;This is another hobby project. Any display solution with a VGA input can be used a the notice board. Users text the messages to be displayed, along with an access code to a predefined number. The system would them display the messgae on the display&lt;/p&gt;
+&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
+&lt;p&gt;The system is built around an AVR microcontroller and a GSM modem. The GSM modem has a SIM card provided by the netork provider and can receive text messages. The microcontroller controls the modem and reads the incomming messages through AT commands over a serial port. The user has to send the text message prepended with the security access code. This prevents unauthorized people from spamming the system,&lt;/p&gt;
+&lt;p&gt;Once the text to be displayed is received and authenticated. The AVR microcontroller sends it over to the display as a VGA signal. Even though the tiny AVR controller does not have a VGA port, VGA signals are generated by bitbanging through the SPI port.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;Here is a video of the system in operation.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/sg7snEejMzI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self parking car</title>
+      <link>https://achuwilson.github.io/project/2009-self-parking-car/</link>
+      <pubDate>Fri, 27 Mar 2009 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2009-self-parking-car/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#how&#34;&gt;How&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#results&#34;&gt;Result&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;This is a small side project during my undergraduate days, to master embedded systems and robotics skills.&lt;/p&gt;
+&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
+&lt;p&gt;The robot car consists of IR distance sensors on its sides and wheel encoders. These data streams are fed into a state machine, which looks for empty parking spots. If found any, the state machine would initialize the parking subroutine, and executes a parking maneuver.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+&lt;img src=&#34;https://achuwilson.github.io/project/2009-self-parking-car/parkingcar_hu08f097a3ed191a1b7d6a8778b58680d4_157737_450x450_fit_q90_lanczos.jpg&#34; width=&#34;450&#34; height=&#34;338&#34; alt=&#34;parking robot car&#34;&gt;
+
+The above image shows the setup used.&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;Some trials!
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/GDYHJPsIQ2M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

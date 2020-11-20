@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Achu Wilson</title>
+    <link>https://achuwilson.github.io/authors/achuwils/</link>
+      <atom:link href="https://achuwilson.github.io/authors/achuwils/index.xml" rel="self" type="application/rss+xml" />
+    <description>Achu Wilson</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Achu Wilson 2020</copyright>
+    <image>
+      <url>https://achuwilson.github.io/img/pom-card.png</url>
+      <title>Achu Wilson</title>
+      <link>https://achuwilson.github.io/authors/achuwils/</link>
+    </image>
+    
+  </channel>
+</rss>

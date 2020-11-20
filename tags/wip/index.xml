@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wip | Achu Wilson</title>
+    <link>https://achuwilson.github.io/tags/wip/</link>
+      <atom:link href="https://achuwilson.github.io/tags/wip/index.xml" rel="self" type="application/rss+xml" />
+    <description>wip</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Achu Wilson 2020</copyright><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://achuwilson.github.io/img/pom-card.png</url>
+      <title>wip</title>
+      <link>https://achuwilson.github.io/tags/wip/</link>
+    </image>
+    
+    <item>
+      <title>In-Hand Rolling</title>
+      <link>https://achuwilson.github.io/project/2020-in-hand-rolling/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2020-in-hand-rolling/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#previous-works&#34;&gt;Previous works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#status&#34;&gt;Status&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#going-further&#34;&gt;Going Further&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;This is quite recent and an exploratory side project. Recently for another project, I trained a CNN to classify the objects being grasped by a hand which has GelSight based tactile sensors. It worked pretty good (~90% accuracy) on my test objects. Analysing the false classifications indicated that the tactile data may not be perfect during all the grasps. We humans also gets confused in the same way occasionally, if we grab objects with just two fingers. We would then either proceed to close the fingers to make more contact surface area with the object or roll the object between our fingers to classify it. This would then give us more data and increases our belief probability.&lt;/p&gt;
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+&lt;p&gt;Much research has been done in tactile object recognition as well as in hand manipulation
+&lt;a href=&#34;https://core.ac.uk/download/pdf/77000058.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;, 
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/7363508&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2]&lt;/a&gt;. Unlike those approaches. this work explores on learning a finger movement repertoire, that could maximize the in-hand object recognition/localization capabilities.&lt;/p&gt;
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;The following video shows the prototype gripper classifying two test objects (geodesic spheres with hexagonal and triangular faces, that can be better felt by touch)&lt;/p&gt;
+&lt;iframe src=&#34;https://drive.google.com/file/d/1bOfoukle06T8DrrSyyc8ingNUB5qe8He/preview&#34; width=&#34;640&#34; height=&#34;480&#34; align =&#34;center&#34; &gt;&lt;/iframe&gt;
+&lt;p&gt;We can see that it falsely classifies objects once in a while.&lt;/p&gt;
+&lt;p&gt;A modular 3rd axis is inserted in between the finger and the gripper, which can rotate the object in hand.&lt;/p&gt;
+&lt;iframe src=&#34;https://drive.google.com/file/d/1L_x2ZVm-HVFxSDLjEirT3ZcQ40vBXKNi/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;The classification probabilities during this motion are averaged to get a more accurate estimate of the object.&lt;/p&gt;
+&lt;p&gt;(Note: it has been tested only with symmetric objects, which are easy to roll and is still an ongoing project)&lt;/p&gt;
+&lt;h2 id=&#34;going-further&#34;&gt;Going Further&lt;/h2&gt;
+&lt;p&gt;More experimentation, 3D reconstruction using techniques using ICP.&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BlindGrasp</title>
+      <link>https://achuwilson.github.io/project/2020-blindgrasp/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2020-blindgrasp/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#previous-works&#34;&gt;Previous works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#how&#34;&gt;How&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#status&#34;&gt;Status&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;BlindGrasp, as the name implies, aims at grasping objects when the robot&amp;rsquo;s eyes are blindfolded. This idea had been lingering in my mind, ever since I came across the GelSight optical tactile sensor. It is a tough and challenging problem and I have been making slow, yet good progress. This is the main project that I am spending my time now and has helped us to be the finalist in the &lt;em&gt;Kuka Innovation Award 2021&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Humans have excellent grasping capabilities in unstructured environments which are still unmatched by robots. This can be attributed to the dexterous human hand, robust visual and tactile sensing capabilities as well as to the intelligent brain which makes conscious and subconscious decisions.&lt;/p&gt;
+&lt;p&gt;Visual sensing is traditionally used extensively in robotics when compared to tactile sensing. Tactile sensing is harder, mainly due to the difficulty in interpreting and making sense of the complex tactile signals. The recent developments in machine learning - particularly Deep Reinforcement Learning has opened new possibilities in the making usage of such complex data.&lt;/p&gt;
+&lt;p&gt;We humans can effortlessly put a hand inside a bag, search by moving it around and pick up an item or we can use our hands to dig or sieve through granular medium like sand and pick up an object. This project explores building a system which learns manipulation and grasping skills in such vision denied environments.&lt;/p&gt;
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+&lt;p&gt;Grasping objects, using tactile sensing alone as well as in granular media are explored more recently. Following are some of the early works.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.robotics.stanford.edu/~ang/papers/icra09-ProximityGrasping.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reactive Grasping Using Optical Proximity Sensors&lt;/a&gt; by Kaijen Hsaio et al.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://choice.umn.edu/deep-learning-approach-grasping-invisible&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Deep Learning Approach to Grasping the Invisible&lt;/a&gt;, by Yang Yang et al.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/9158928&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vibro-Tactile Foreign Body Detection in Granular Objects based on Squeeze-Induced Mechanical Vibrations&lt;/a&gt; by Togzhan Syrymova et al.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://arxiv.org/abs/1909.04787&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MAT: Multi-Fingered Adaptive Tactile Grasping via Deep Reinforcement Learning&lt;/a&gt; by Bohan Wu et al.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://arxiv.org/abs/1805.04201&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learning to Grasp without Seeing&lt;/a&gt; by Adithyavairavan Murali et al.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#&#34;&gt;Multimodal Haptic Perception within Granular Media via Recurrent Neural Networks&lt;/a&gt; by S.Jia et al.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are almost no works combining tactile sensing- exploration and grasping objects in granular media&lt;/p&gt;
+&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
+&lt;p&gt;Bringing such novel manipulation capabilities to robots calls for better robot hands as well as algorithms. The stated goals of the project are&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Building a novel tactile sensing capable gripper&lt;/li&gt;
+&lt;li&gt;Develop AI techniques to make the robot learn how to explore, detect and grasp objects in unstructured-vision denied environments where tactile sensing only could be used.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The Tactile Sensing Gripper consists of a two finger parallel jaw gripper, with tactile sensing capabilities. Similar to the human fingers, the inner surface of the fingers would be having a high spatial resolution tactile sensing capability and the outer surface comparatively lower resolution. The highly sensitive inner surface of the finger helps in recognizing objects from their shape, texture as well as in fine manipulation skills. The lower sensitive outer surface helps in detecting the presence of nearby objects via contact.&lt;/p&gt;
+&lt;p&gt;The AI System consists of a Deep Reinforcement Learning Agent that learns how to explore the environment and to recognize/differentiate objects and pick them up. The agent uses data from the two types of tactile sensors on each of the fingers, proprioception and force sensor data from the robot arm. The agent decides the direction of motion of the end effector and the control of the gripper.&lt;/p&gt;
+&lt;p&gt;As a relatively simple task to start with, grasping specific objects from an environment similar to the following setup will have to be acheived using the tactile sensing alone.&lt;/p&gt;
+
+
+
+
+
+&lt;img src=&#34;https://achuwilson.github.io/project/2020-blindgrasp/pick1_hu5216c571185a4b1be355b78cbb1a0511_203481_450x450_fit_lanczos_2.png&#34; width=&#34;415&#34; height=&#34;450&#34; alt=&#34;picking task 1&#34;&gt;
+
+&lt;p&gt;Ultimately, the robot is expected to learn how to pick up objects under the granular media as in the following simulation.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/a2rk8dN3KsA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;A novel gripper, with tactile sensing around the finger is built and we are collecting data from the real world environment. This would be augmented with data from the simulated environment and human demonstrations to train the RL agent for the task.&lt;/p&gt;
+&lt;p&gt;More updates coming soon, as it is an ongoing project..!&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chero</title>
+      <link>https://achuwilson.github.io/project/2019-chero/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/project/2019-chero/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-and-why&#34;&gt;What and why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#previous-works&#34;&gt;Previous works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#what-makes-it-special&#34;&gt;What makes it special&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#status&#34;&gt;Status&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#going-further&#34;&gt;Going Further&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+&lt;p&gt;Chero is my acronym for  Chef-Robot, an ongoing project motivated by my desire to have a personal robot arm to experiment with. My long term dream of such a robot was triggered into action by the  MIT Collaborative Intelligence Challenge 2019, in which I gave a try. In addition, it as an interesting challenge and learning oppertunity to build such a system from grounds up - mechanical design-electronics controls.&lt;/p&gt;
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+&lt;p&gt;Direct drive robots are, as the name implies, are robots in which the motors directly drive the shaft without using a gearbox. It was introduced by Asada et al as early as early 80s 
+&lt;a href=&#34;https://www.ri.cmu.edu/pub_files/pub4/asada_haruhiko_1981_1/asada_haruhiko_1981_1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;,
+&lt;a href=&#34;https://mitpress.mit.edu/books/direct-drive-robots&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2]&lt;/a&gt;. Direct drive robots have many inherent advantages like better torque control, dynamic response, zero backlash and friction etc. Despite all these advantages, the main disadvantage that prevented direct drive robots from becoming mainstream is mainly the low torque density of electrical motors. However, recent advancements in technology has brought us high torque BLDC motors, which are used either used directly or in combination with a  low gear ratio (&amp;lt;10) reducer. Notable robots include berkeley openarms
+&lt;a href=&#34;https://berkeleyopenarms.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[3]&lt;/a&gt;,   and numerous quadrupeds like MIT Cheetah 
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/6631038&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;4&lt;/a&gt; and works by Gavin Kenneally et al
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/7403902&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[5]&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-makes-it-special&#34;&gt;What makes it special&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Quasi-Direct Drive&lt;/li&gt;
+&lt;li&gt;Spherical shoulder and wrist joints&lt;/li&gt;
+&lt;li&gt;Redundant Robot - 7DOF&lt;/li&gt;
+&lt;li&gt;Cheap and affordable&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The Quasi- Direct drive system consists of timing belt driven axes with a reduction ratio of 3. High torque density gimbal BLDC motors are used to actuate these joints.&lt;/p&gt;
+&lt;p&gt;The robot also has spherical joints at both the shoulder and the wrist, which matches closely with human arms.  It is shown that such a wrist design can be quite helpful in dexterous manipulation applications 
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/8624352&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[6]&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;The design is almost complete, parts machined-3dprinted and a video of first 4 DOF can be seen below
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/R1Q4KODC1f4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;A 3DOF spherical wrist is also designed and assembled. It will be attached soon.&lt;/p&gt;
+&lt;h2 id=&#34;going-further&#34;&gt;Going Further&lt;/h2&gt;
+&lt;p&gt;Implementing controllers, integrating with Drake&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
