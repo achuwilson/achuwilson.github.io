@@ -5,7 +5,7 @@
     <link>https://achuwilson.github.io/</link>
       <atom:link href="https://achuwilson.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Achu Wilson</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Achu Wilson 2020</copyright><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Achu Wilson 2021</copyright><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://achuwilson.github.io/img/pom-card.png</url>
       <title>Achu Wilson</title>
@@ -46,14 +46,6 @@
 &lt;p&gt;More experimentation, 3D reconstruction using techniques using ICP.&lt;/p&gt;
 &lt;/DIV&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Digger Finger: GelSight for Granular Media</title>
-      <link>https://achuwilson.github.io/publication/2020-digger/</link>
-      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://achuwilson.github.io/publication/2020-digger/</guid>
-      <description></description>
     </item>
     
     <item>
