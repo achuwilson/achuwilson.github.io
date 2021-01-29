@@ -43,51 +43,6 @@
   </url>
   
   <url>
-    <loc>https://achuwilson.github.io/authors/achuwils/</loc>
-    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://achuwilson.github.io/post/iiwadrake-intro/</loc>
-    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://achuwilson.github.io/authors/</loc>
-    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://achuwilson.github.io/post/</loc>
-    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://achuwilson.github.io/tags/drake/</loc>
-    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://achuwilson.github.io/categories/drake/</loc>
-    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://achuwilson.github.io/tags/iiwa/</loc>
-    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://achuwilson.github.io/categories/iiwa/</loc>
-    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://achuwilson.github.io/tags/tutorials/</loc>
-    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://achuwilson.github.io/project/2020-in-hand-rolling/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
@@ -104,6 +59,11 @@
   
   <url>
     <loc>https://achuwilson.github.io/talk/</loc>
+    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://achuwilson.github.io/authors/</loc>
     <lastmod>2020-03-31T09:00:00+00:00</lastmod>
   </url>
   
@@ -335,6 +295,14 @@
   <url>
     <loc>https://achuwilson.github.io/project/2009-self-parking-car/</loc>
     <lastmod>2009-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://achuwilson.github.io/authors/achuwils/</loc>
+  </url>
+  
+  <url>
+    <loc>https://achuwilson.github.io/post/</loc>
   </url>
   
 </urlset>
