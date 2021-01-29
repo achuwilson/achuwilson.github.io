@@ -2,7 +2,7 @@
 title: Background segmentation
 summary: Background Segmentation for Fingervision Tactile Sensor
 abstract: "Background Segmentation for Fingervision Tactile Sensor"
-date: "2020-03-27T00:00:00Z"
+date: "2020-01-27T00:00:00Z"
 external_link: ""
 
 image:
