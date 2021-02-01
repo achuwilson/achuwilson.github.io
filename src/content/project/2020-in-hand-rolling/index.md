@@ -46,7 +46,11 @@ url_video: ""
 
 ## What and Why
 
-This is quite recent and an exploratory side project. Recently for another project, I trained a CNN to classify the objects being grasped by a hand which has GelSight based tactile sensors. It worked pretty good (~90% accuracy) on my test objects. Analysing the false classifications indicated that the tactile data may not be perfect during all the grasps. We humans also gets confused in the same way occasionally, if we grab objects with just two fingers. We would then either proceed to close the fingers to make more contact surface area with the object or roll the object between our fingers to classify it. This would then give us more data and increases our belief probability. 
+This is quite recent and an exploratory side project. Recently for another project, I trained a CNN to classify the objects being grasped by a hand which has GelSight based tactile sensors. It worked pretty good (~90% accuracy) on my test objects. Analyzing the false classifications indicated that the tactile data may not be perfect during all the grasps. We humans also gets confused in the same way occasionally, if we grab objects with just two fingers. We would then either proceed to close the fingers to make more contact surface area with the object or roll the object between our fingers as in the following video to classify it. 
+
+![](handroll.gif)
+
+This would then give us more tactile data and increases our belief probability. This work involves exploring whether such a capability can improve tactile sensing for robots. 
 
 ## Previous Works
 

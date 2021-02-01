@@ -103,7 +103,9 @@ The approach works reliably and is tested with boxes of different sizes and weig
 &lt;a href=&#34;#going-further&#34;&gt;Going Further&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
-&lt;p&gt;This is quite recent and an exploratory side project. Recently for another project, I trained a CNN to classify the objects being grasped by a hand which has GelSight based tactile sensors. It worked pretty good (~90% accuracy) on my test objects. Analysing the false classifications indicated that the tactile data may not be perfect during all the grasps. We humans also gets confused in the same way occasionally, if we grab objects with just two fingers. We would then either proceed to close the fingers to make more contact surface area with the object or roll the object between our fingers to classify it. This would then give us more data and increases our belief probability.&lt;/p&gt;
+&lt;p&gt;This is quite recent and an exploratory side project. Recently for another project, I trained a CNN to classify the objects being grasped by a hand which has GelSight based tactile sensors. It worked pretty good (~90% accuracy) on my test objects. Analyzing the false classifications indicated that the tactile data may not be perfect during all the grasps. We humans also gets confused in the same way occasionally, if we grab objects with just two fingers. We would then either proceed to close the fingers to make more contact surface area with the object or roll the object between our fingers as in the following video to classify it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;handroll.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This would then give us more tactile data and increases our belief probability. This work involves exploring whether such a capability can improve tactile sensing for robots.&lt;/p&gt;
 &lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
 &lt;p&gt;Much research has been done in tactile object recognition as well as in hand manipulation
 &lt;a href=&#34;https://core.ac.uk/download/pdf/77000058.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;, 
