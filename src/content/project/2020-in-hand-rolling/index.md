@@ -64,7 +64,7 @@ This would then give us more tactile data and increases our belief probability. 
 
 The following video shows the prototype gripper classifying two test objects (geodesic spheres with hexagonal and triangular faces, that can be better felt by touch)
 
-<iframe src="https://drive.google.com/file/d/1bOfoukle06T8DrrSyyc8ingNUB5qe8He/preview" width="640" height="480" align ="center" ></iframe>
+<iframe src="https://drive.google.com/file/d/1bOfoukle06T8DrrSyyc8ingNUB5qe8He/preview" width="640" height="360" align ="center" ></iframe>
 
 We can see that it falsely classifies objects once in a while. 
 
@@ -73,7 +73,7 @@ We can see that it falsely classifies objects once in a while.
 
 A modular 3rd axis is inserted in between the finger and the gripper, which can rotate the object in hand. 
 
-<iframe src="https://drive.google.com/file/d/1L_x2ZVm-HVFxSDLjEirT3ZcQ40vBXKNi/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1L_x2ZVm-HVFxSDLjEirT3ZcQ40vBXKNi/preview" width="640" height="360"></iframe>
 
 The classification probabilities during this motion are averaged to get a more accurate estimate of the object.
 

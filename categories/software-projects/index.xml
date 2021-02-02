@@ -114,10 +114,10 @@ The approach works reliably and is tested with boxes of different sizes and weig
 &lt;a href=&#34;https://ieeexplore.ieee.org/document/7363508&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2]&lt;/a&gt;. Unlike those approaches. this work explores on learning a finger movement repertoire, that could maximize the in-hand object recognition/localization capabilities.&lt;/p&gt;
 &lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
 &lt;p&gt;The following video shows the prototype gripper classifying two test objects (geodesic spheres with hexagonal and triangular faces, that can be better felt by touch)&lt;/p&gt;
-&lt;iframe src=&#34;https://drive.google.com/file/d/1bOfoukle06T8DrrSyyc8ingNUB5qe8He/preview&#34; width=&#34;640&#34; height=&#34;480&#34; align =&#34;center&#34; &gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;https://drive.google.com/file/d/1bOfoukle06T8DrrSyyc8ingNUB5qe8He/preview&#34; width=&#34;640&#34; height=&#34;360&#34; align =&#34;center&#34; &gt;&lt;/iframe&gt;
 &lt;p&gt;We can see that it falsely classifies objects once in a while.&lt;/p&gt;
 &lt;p&gt;A modular 3rd axis is inserted in between the finger and the gripper, which can rotate the object in hand.&lt;/p&gt;
-&lt;iframe src=&#34;https://drive.google.com/file/d/1L_x2ZVm-HVFxSDLjEirT3ZcQ40vBXKNi/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;https://drive.google.com/file/d/1L_x2ZVm-HVFxSDLjEirT3ZcQ40vBXKNi/preview&#34; width=&#34;640&#34; height=&#34;360&#34;&gt;&lt;/iframe&gt;
 &lt;p&gt;The classification probabilities during this motion are averaged to get a more accurate estimate of the object.&lt;/p&gt;
 &lt;p&gt;(Note: it has been tested only with symmetric objects, which are easy to roll and is still an ongoing project)&lt;/p&gt;
 &lt;h2 id=&#34;going-further&#34;&gt;Going Further&lt;/h2&gt;
