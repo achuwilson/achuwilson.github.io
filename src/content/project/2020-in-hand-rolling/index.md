@@ -46,7 +46,11 @@ url_video: ""
 
 ## What and Why
 
-This is quite recent and an exploratory side project. Recently for another project, I trained a CNN to classify the objects being grasped by a hand which has GelSight based tactile sensors. It worked pretty good (~90% accuracy) on my test objects. Analyzing the false classifications indicated that the tactile data may not be perfect during all the grasps. We humans also gets confused in the same way occasionally, if we grab objects with just two fingers. We would then either proceed to close the fingers to make more contact surface area with the object or roll the object between our fingers as in the following video to classify it. 
+This is quite recent and an exploratory side project to explore classification of visually similar yet physical objects. The best example would be geodesic polyhedrons of different frequencies, which can trick visual - both color and depth systems as follows.
+
+![](rgb-depth.jpg).
+
+The surface geometry of the object could be estimated using a robot gripper which has a GelSight sensor. A CNN using MobileNet architecture  was trained to classify the objectsfrom the raw GelSight data. It worked pretty good (~90% accuracy) on the test objects. Analyzing the false classifications indicated that the tactile data may not be perfect during all the grasps. We humans also gets confused in the same way occasionally, if we grab objects with just two fingers. We would then either proceed to close the fingers to make more contact surface area with the object or roll the object between our fingers as in the following video to classify it. 
 
 ![](handroll.gif)
 
@@ -81,7 +85,9 @@ The classification probabilities during this motion are averaged to get a more a
 
 ## Going Further
 
-More experimentation, 3D reconstruction using techniques using ICP.
+ More experimentation, primarily on the following would be explored as time permits.
+ - 3D reconstruction using techniques using ICP.
+ - Recursive Neural network to extract temporal data during rolling.
 
 </DIV>
 
