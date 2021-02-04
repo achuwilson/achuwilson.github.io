@@ -5,12 +5,175 @@
     <link>https://achuwilson.github.io/tags/conference/</link>
       <atom:link href="https://achuwilson.github.io/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     <description>conference</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Achu Wilson 2021</copyright><lastBuildDate>Sun, 12 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Achu Wilson 2021</copyright><lastBuildDate>Thu, 15 Jun 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://achuwilson.github.io/img/pom-card.png</url>
       <title>conference</title>
       <link>https://achuwilson.github.io/tags/conference/</link>
     </image>
+    
+    <item>
+      <title>Publishing my first Paper</title>
+      <link>https://achuwilson.github.io/post/2017-06-15-icra17/</link>
+      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/post/2017-06-15-icra17/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;p&gt;About an year ago, I got lucky enough to attend ICRA 2016 at Stockholm for the HRATC robot competition. I was so much inspired after seeing all the research being published there. I decided pursue a research project, and try to publish a paper in the subsequent conference. The fact that ICRA 2017 is organized in Singapore was also another major factor. It is close to India and I need not spend a fortune on the travel and accommodation expenses.&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;why-i-did-it&#34;&gt;Why I did it?&lt;a href=&#34;#why-i-did-it&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;I always wanted to become a scientist and make my little contribution to science/robotics.&lt;/li&gt;
+&lt;li&gt;I wanted to get into a Ph.D program and I had no research papers.&lt;/li&gt;
+&lt;li&gt;To experience how it was like doing research and writing a technical paper.&lt;/li&gt;
+&lt;li&gt;Attend conferences like ICRA and IROS again, meet smart people and their work.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+&lt;h2 id=&#34;my-background-and-constraints&#34;&gt;My Background and Constraints&lt;a href=&#34;#my-background-and-constraints&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Ever since I was rejected from a couple of Ph.D programs from 2013-2015, due to lack of research experience, I have been making plans and trying to do research on my own and write a couple of papers. But nothing moved past making elaborate plans and maybe a little literature study for all the research ideas I had. The stresses of working in a startup consume so much of your mental strength as well as time. Thus I failed in materializing all my research Ideas. My research ideas are interdisciplinary and spans over computer vision for robotics, novel actuators for robots, robotic manipulators and motion planning to name a few.&lt;/p&gt;
+&lt;p&gt;My constraints are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Demanding Job&lt;/strong&gt;:
+Working in a startup is very much different that a normal 9-5 job. You have got multiple responsibilities and more work. On some days I may have to pull all-nighters to meet the deadlines&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;No research experience&lt;/strong&gt; :
+Even though I always wanted to be a scientist, I never had any formal training in research. I am mostly a self taught engineer and all my prior works were on building and hacking some stuff.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;No mentor&lt;/strong&gt; :
+Wish I had some professors to guide me. I was alone and my guide was the books and the Internet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Limited Time&lt;/strong&gt; :
+Since one of the goals of undertaking a research project is going to the next ICRA, I had to submit the paper before 15th September 2016. So, it is barely three and half months.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+&lt;h2 id=&#34;picking-up-a-research-topic&#34;&gt;Picking up a research topic&lt;a href=&#34;#picking-up-a-research-topic&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The first  challenge was picking up the topic or project to work on. I was clueless and was interested in everything. I started reading through the notes and photos I took at ICRA16. Finally I ended up in the best way possible. The proceedings of the conference were given on a USB drive. It was the first time I had access to this much research papers. It was awesome to go through all of the papers, even though I couldn&amp;rsquo;t understand many of the purely theoretical ones.&lt;/p&gt;
+&lt;p&gt;Now I had to read through all of them, make notes and think how to build upon that.  Finding time to read all these was the first problem I faced. I cannot sit and read the entire day. I started using Mendeley app on PC and my smartphone to organize the papers and make notes. Having all the papers in my smartphone helped to make use of every bit of time otherwise spent useless. I read during my daily commute to and from work, during meals, when I am travelling outside etc&lt;/p&gt;
+&lt;p&gt;It was very difficult to indulge in studies and research during this time. I was travelling for client demos of the startup and staying at different places- with friends, relatives, in hotels etc. Moreover, I would be often exhausted after the day&amp;rsquo;s toil, that even the possibility of staying up late reading was not imaginable. Still, I managed to read quite a bit by making best usage of time and not wasting any. Often I would end up sleeping reading some papers on my smartphone or in front of the open laptop.&lt;/p&gt;
+&lt;p&gt;Even though finding time to read was difficult, there was enough and more time to think. I could think while waiting in traffic blocks, while driving, during meals, and even during boring and useless meetings. My thoughts wandered around various problems associated with direct drive mechanisms and technologies, how animal muscles work and limbs move, tactile and vision feedback, power consumption for these drives etc to name a few.&lt;/p&gt;
+&lt;p&gt;I had to travel to Chennai for supporting a custome/pdf/2017-mr-clutch-icra.pdfr of my company. I stayed with my relatives in Chennai and the daily commute to the client was about 70 kms. I was traveling in the crowded suburban trains of Chennai and the hot climate made it worse. I had to start my journey at about 8 AM and would be back only by 11PM. I would be very exhausted  by the time I reached back to my room. So reading at night was beyond consideration. But I could make use of the commute time. In total, it took around 7 hours an average per day for my commute. I spend this time reading through the papers that came in the ICRA USB drive. There were over a thousand papers in my reading list. I skimmed through most of them, stopping and reading only those portions I could understand or was interested in. I came across the paper titled &amp;quot; Design and Development of a Hybrid Magneto-Rheological Clutch for Safe Robotic Applications&amp;quot; by Masoud Moghani and Mehrdad R. Kermani. It captured my attention and I began to study more about Magneto-Rheological fluids and their application in human safe robotics. I found out a couple more papers by the same authors on the fundamentals of MR devices.&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;initial-explorations-failures&#34;&gt;Initial explorations, failures&lt;a href=&#34;#initial-explorations-failures&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;more-experimentation-finalizing-the-idea&#34;&gt;More experimentation, finalizing the idea&lt;a href=&#34;#more-experimentation-finalizing-the-idea&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Once I was back at home, I began to delve deep into MR Fluids and their characterization. More reading&amp;hellip; More searching.. I came up with an idea to make use of the properties of MR Fluid to make a Linear clutch -  a clutch which controls force transmitted from input to output through MR fluid.&lt;/p&gt;
+&lt;p&gt;MR fluids are expensive and the lead-time will be a couple of weeks. Since I cannot afford both, I resorted to making my own MR fluid. I filed myself a piece of iron to the fine powdered form and used vegetable oil as the medium to make my own MR fluid for the prototype.
+Here is a small video with the MR fluid&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/9ZZQn46WvLg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Before starting on the construction, I verified that my concept works in simulation. The following figures show the CAD model, rendered image and the FEM analysis&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;cad.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;FEM_clutch.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After that I started working on building the MR clutch. Following photos shows some random shots during the build process.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;clutch-build.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Now I have to procure a couple of items which includes linear shaft bearings, aluminum rods etc.
+Once all the parts are procured, the clutch was assembled and the cavity inside was filled with MR Fluid. Then it had to be tested and characteristics were studied&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;iframe width = &#34;640&#34; height =&#34;380&#34; src=clutch_photo.jpg &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;In order to demonstrate the usefulness and study more about the MR linear clutch, a single degree of freedom robot joint was designed and fabricated. It used the standard 30x30 Aluminum profiles. The arm was driven by a Firgelli linear actuator.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;arm.jpg&#34; alt=&#34;&#34;&gt;/pdf/2017-mr-clutch-icra.pdf&lt;/p&gt;
+&lt;p&gt;More experiments are done with the arm to validate the functionality of MR Linear clutch.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;MR_clutch_result_plot.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ES0q4eb1TYo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;a href=&#34;#documentation&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Experiments are completed and data collected. Now I have to write the paper. Since I didn&amp;rsquo;t have any previous experience writing an academic paper, it took some time.  I read a couple of articles online and referred IEEE guides and instructions. Instead of starting with the abstract and introduction, I started directly with the content- the things I did and the results obtained. Once it was done, I had to refer more literature to write the introductory pages. Luckily, due to the local festival of Onam, I got holidays for a couple of days and could work on the paper full time. Even then, I could felt the time running out fast. I had to plot the graphs, make diagrams and pictures and it took a lot more time than expected. I worked on the paper for about 4days clocking about 20 hours of work daily. Just a couple of hours before the deadline, I completed the final proofreading and submitted the paper. I was so exhausted after this that I literally slept an entire day after this.&lt;/p&gt;
+&lt;p&gt;The final version of the paper is available 
+&lt;a href=&#34;https://achuwilson.github.io/pdf/2017-mr-clutch-icra.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;acceptance-and-presentation-at-icra-2017&#34;&gt;Acceptance and Presentation at ICRA 2017&lt;a href=&#34;#acceptance-and-presentation-at-icra-2017&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;No words could describe the joy and happiness I had when I got the decision in January 2017. My very first paper was accepted. I began preparing for attending the conference.&lt;/p&gt;
+&lt;p&gt;Later, I travelled to Singapore to attend ICRA 2017, where I presented my paper.
+&lt;img src=&#34;presentation.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In addition, I got to meet numerous researchers and even get an a copy of Handbook of Robotics signed by Dr. Oussama Khatib
+&lt;img src=&#34;icra17.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;key-takeaways&#34;&gt;Key Takeaways&lt;a href=&#34;#key-takeaways&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;It was an awesome experience. I pushed myself to the limits, learned a lot of things.&lt;/p&gt;
+&lt;p&gt;When I started working on the research project, the only thing that mattered to me was doing such an awesome work so that it is accepted at a top conference like ICRA. But as I finished the paper,  I realized that it doesn&amp;rsquo;t matter much whether the paper is accepted or rejected.  The only thing that matters is how much impactful is your work and how much satisfied you are.&lt;/p&gt;
+&lt;p&gt;Along the course of working on the paper, I learned much beyond the robotics stuff. The main ones being&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Time Management&lt;/strong&gt; :&lt;/p&gt;
+&lt;p&gt;In most cases, scientific research and publication of results take an enormous amount of time and resources. It may takes months or even years of research to make an impactful invention and maybe even more months to author a paper on it.   But in my case, the time was fixed as the paper was to be submitted before the deadline, which is just a couple of months away. On top of that, I am working a full-time job  at a startup, which made finding the time extremely difficult. I had to find extra time after my work and make the best use of time wasted. I often slept less, only about 4-5 hours a day.  After my daytime job, I started fiddling with the research projects in the evening and continued till midnight or occassionally to early mornings.&lt;/p&gt;
+&lt;p&gt;Having a smartphone always with me was the greatest tool that I used to make best use of time. It was loaded with plenty of books and papers. I had Mendeley on my phone to keep track of all the papers that I am reading. I could read on the phone irrespective of where I am -  while traveling in a crowded bus, when having meals, when having a haircut at the salon, when stuck in a traffic jam, while waiting for someone, when in a queue or even when I am in the toilet seat. These are the bits of time wasted by not being productive. Somehow I managed to squeeze out every bit of time wasted and use it for productive things.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Narrow down and Focus&lt;/strong&gt; :&lt;br&gt;
+My initial ideas was to design a clone of MIT Cheetah using direct drive actuators which is a very broad topic. Studies must be done on the actuators, optimum kinematic structure, gait generation, stability and much more. Each of these requires considerable research effort in itself and has only been possible by the collective effort of many researchers. So concentrate on something that may seem simple and small, go deep and push forward.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t re-invent the wheel&lt;/strong&gt; :
+This was a lesson that I learned the hard way. Better not to start from scratch, unless your idea is  revolutionary and  novel. Study about and make use of the progress brought about by past researchers.  If some part of your research depends on something that has been previously done, make use of it and build upon it or reuse it. Your time is limited (not just the conference submission deadline), so why to spend time reinventing the wheel, when you can invest it to invent time travel.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;You cannot plan a research project explicitly&lt;/strong&gt; :
+Coming from a background doing engineering projects, I used to plan all the minute details and had a roadmap for execution. I knew beforehand the progress I would achieve at particular instances of time. It was possible because the path was clear and the results was predictable. Engineering is the often trodden path and research is the one less traveled. &lt;em&gt;&lt;strong&gt;You may just know the direction but you have to make the path.&lt;/strong&gt;&lt;/em&gt; You may be struck with an idea when you least expect it. The results of the research may often come unexpectedly and maybe even in dreams like the discovery structure of Benzene by Kekule.
+So in short &lt;em&gt;&lt;strong&gt;Engineering = predictable&lt;/strong&gt;&lt;/em&gt; ,while &lt;em&gt;&lt;strong&gt;Research = unpredictable.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/DIV&gt;</description>
+    </item>
     
     <item>
       <title>Attending ICRA and winning HRATC Challenge</title>
@@ -29,7 +192,8 @@
 &lt;/h2&gt;
 &lt;p&gt;I always wished to attend these conferences, but not having an academic/research background as well as expensive registration as a non academic and expenses related to travel and accommodation held me back. I realized that there are robot competitions associated with the conference. The Humanitarian Robotics and Automation Technology Challenge (HRATC) attracted me, primarily because it related to autonomous navigation and SLAM, which was something I was exploring at my startup. Secondarily the fact that the competition used ROS as the platform and no hardware was necessary. This relieved us from the hassle and expenses of building hardware.&lt;/p&gt;
 &lt;p&gt;So, I teamed with two of my friends, Lentin Joseph &amp;amp; Chandykunju Alex. We named the team Autobots.
-The challenge involved autonomously searching and mapping an area for buried landmines using a UGV equipped with a metal detector. Teams were rewarded for detecting a landmine, marking it on the map and on the area covered. Penalties were awarded for running over landmines and crashing into obstacles/trees. Initial elimination stages involved teams competing in the Gazebo simulator. In the intermediate stage, teams were provided real data from the hardware as ROSBAG files and the code would be tested on them. The finals were scheduled to be conducted at ICRA 2016, in Stockholm. Teams would be competing on real robot hardware in the finals. To make it more realistic like an inaccessible landmine filled zone, the competition arena including the robot, landmines, obstacles etc were set up in Portugal and  we were only given an initial remote access to upload our code from Stockholm. After that the robot has to operate autonomously. We cleared the initial rounds effortlessly and made into the finals. Hurray..!! So here comes my opportunity to attend ICRA. I was so excited. This is going to be my first international trip, out of India and how better can it get when it is to the biggest robotics conference. Indeed, a dream come true.&lt;/p&gt;
+The challenge involved autonomously searching and mapping an area for buried landmines using a UGV equipped with a metal detector. Teams were rewarded for detecting a landmine, marking it on the map and on the area covered. Penalties were awarded for running over landmines and crashing into obstacles/trees. Initial elimination stages involved teams competing in the Gazebo simulator. In the intermediate stage, teams were provided real data from the hardware as ROSBAG files and the code would be tested on them. The finals were scheduled to be conducted at ICRA 2016, in Stockholm. Teams would be competing on real robot hardware in the finals. To make it more realistic like an inaccessible landmine filled zone, the competition arena including the robot, landmines, obstacles etc were set up in Portugal and  we were only given an initial remote access to upload our code from Stockholm. After that the robot has to operate autonomously. We cleared the initial rounds effortlessly and made into the finals. Hurray..!! So here comes my opportunity to attend ICRA. I was so excited.&lt;/p&gt;
+&lt;p&gt;The excitement was huge- it was my first conference, it was my first international trip, and moreover, the excitement of meeting eminent robotics researchers, attending their talks and seeing the cutting edge research happening worldwide. It was indeed a dream came true.&lt;/p&gt;
 
 
 
@@ -91,8 +255,10 @@ In addition, we got enough free T-shirts which came handy due to our delayed bag
 &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
 &lt;/svg&gt;&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Attending the conference had a profound impact on my research career in robotics. I was like a kid who was excited about everything. I was interested in everything, ranging from research on robot manipulation, flying robots, navigation, walking robots, novel hardware design and actuation, computer vision, and what not. Being a multi-track conference, it was so difficult for me to catch up with all the talks and presentations happening in different locations. I was running around, taking notes and taking photos of presentations so that I could refer them later. I became aware of the various subfields that I didn&amp;rsquo;t knew existed.&lt;/p&gt;
-&lt;p&gt;I addition to getting a broad overview of all the research happening in robotics, I had a firsthand experience of how the academic research and publishing works. I realized that I could also do research and publish papers.  I  realized that many of my side projects, with more experimentation and  documented could be turned into papers.&lt;/p&gt;
+&lt;p&gt;It was my first time seeing paper presentation sessions. There was three auditoriums where sessions were held in parallel. It was quite difficult to choose which session to attend, since many of them were interesting to me and to make things worse, they were scheduled in parallel.I was interested in everything, ranging from research on robot manipulation, flying robots, navigation, walking robots, novel hardware design and actuation, computer vision, and what not. I enjoyed almost all the sessions I attended. It was exciting to see the cutting edge research results. Moreover the basic concepts behind most of the research was simple and easy to understand. Even though I couldn&amp;rsquo;t make much sense of many highly mathematical and purely theoretical papers, the other papers presented could be grasped easily. Even though I couldn&amp;rsquo;t make sense of many such papers due to my limited knowledge, it was an awesome learning experience. The papers published at ICRA came from all realms of robotics. Coming from a background more inclined seeing the real-hardware robots, I could classify them into two- purely theoretical/mathematical papers and  papers on real robot hardware.&lt;/p&gt;
+&lt;p&gt;Previously my thought was that the research papers/presentations were only understood by someone with a masters or P.hD, due to the complex and advanced topics they handle. I believe keeping myself updated by not missing any IEEE  spectrum video Fridays, reading voraciously every IEEE Robotics &amp;amp; Automation Magazine for the last couple of years helped me a lot in understanding them.&lt;/p&gt;
+&lt;p&gt;I addition to getting a broad overview of all the research happening in robotics, I had a firsthand experience of how the academic research and publishing works. The sessions gave me a realization that many of the things that I did as hobby projects could be the basis for writing awesome research papers. It built in me a confidence that, I too can write and publish a research paper.&lt;/p&gt;
+&lt;p&gt;The interactive sessions after the paper presentations were much useful than the presentations as such as such. I could meet the authors and ask them more about their paper&lt;/p&gt;
 
 
 
