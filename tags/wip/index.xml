@@ -26,13 +26,27 @@
 &lt;li&gt;
 &lt;a href=&#34;#results&#34;&gt;Results&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;a href=&#34;#what-and-why&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;Humans can manipulate objects in interesting ways without even grasping them. We make use of the properties of the object as well as the environment to push, flip, throw and squeeze objects.&lt;/p&gt;
 &lt;p&gt;The following video shows a human hand pushing a paper box on a table and pivoting it around an edge. We can do such a task just by relying on the forces felt on the finger.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;handdemo.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The 
 &lt;a href=&#34;http://manipulation.csail.mit.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT 6.881 Manipulation class&lt;/a&gt; Fall 2020, which was offered entirely online, had a class project and I decided to try this. A Kuka LBR iiwa robot, fitted with a simple single finger end effector is used to achieve the task. The robot does not have the model of the object nor the environment (No prior knowledge of the dimensions of the box or the position coordinates of the edge). The workspace limitations of the robot restrict moving the object under the table, but the method could be extended for any such capable robot.&lt;/p&gt;
-&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;how&#34;&gt;How&lt;a href=&#34;#how&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;Since the model of the object and environment is not provided and no external vision sensors are used, proprioceptive data alone is to be used. The joint torques and position from the robot are used in combination with the impedance control capabilities of the iiwa to estimate the model parameters. This would be an almost impossible or incredibly difficult task with a conventional position-controlled stiff robot, even if equipped with a Force/Torque sensor. The entire system is implemented in Drake as a state machine. The following paragraphs detail the approach used.&lt;/p&gt;
 &lt;p&gt;Initially, the robot moves at a constant velocity in the negative z-axis. Individual joint velocities are calculated from the desired velocity using a PsuedoInverseJacobian controller. Since the iiwa does not have a joint velocity input, the computed joint velocities are integrated to obtain the joint position inputs.
 &lt;img src=&#34;push0.png&#34; alt=&#34;&#34;&gt;
@@ -66,7 +80,14 @@ While the robot is moving at such a constant velocity, the force on the end effe
 &lt;img src=&#34;push6.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Once the finger reaches the end of the above trajectory, a new trajectory is planned, along the same path to pivot the box back to the horizontal position. While executing this new trajectory, fingers move along the circular path, with tangential velocity and radial force components.&lt;/p&gt;
 &lt;p&gt;Once the box is nearly vertical, the state machine transitions into a new state, in which the finger moves a little up or down to maintain a pre-determined vertical force on the box. This accounts for the accumulated position errors caused during the estimation of the model parameters. Once it is done, the state machine transitions it to the final state where the finger moves horizontally, moving the box to the initial position.&lt;/p&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;a href=&#34;#results&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;The following video (3x sped up) shows the system in action.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -102,17 +123,38 @@ The approach works reliably and is tested with boxes of different sizes and weig
 &lt;li&gt;
 &lt;a href=&#34;#going-further&#34;&gt;Going Further&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;a href=&#34;#what-and-why&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;This is quite recent and an exploratory side project to explore classification of visually similar yet physical objects. The best example would be geodesic polyhedrons of different frequencies, which can trick visual - both color and depth systems as follows.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;rgb-depth.jpg&#34; alt=&#34;&#34;&gt;.&lt;/p&gt;
 &lt;p&gt;The surface geometry of the object could be estimated using a robot gripper which has a GelSight sensor. A CNN using MobileNet architecture  was trained to classify the objectsfrom the raw GelSight data. It worked pretty good (~90% accuracy) on the test objects. Analyzing the false classifications indicated that the tactile data may not be perfect during all the grasps. We humans also gets confused in the same way occasionally, if we grab objects with just two fingers. We would then either proceed to close the fingers to make more contact surface area with the object or roll the object between our fingers as in the following video to classify it.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;handroll.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This would then give us more tactile data and increases our belief probability. This work involves exploring whether such a capability can improve tactile sensing for robots.&lt;/p&gt;
-&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;a href=&#34;#previous-works&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;Much research has been done in tactile object recognition as well as in hand manipulation
 &lt;a href=&#34;https://core.ac.uk/download/pdf/77000058.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;, 
 &lt;a href=&#34;https://ieeexplore.ieee.org/document/7363508&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2]&lt;/a&gt;. Unlike those approaches. this work explores on learning a finger movement repertoire, that could maximize the in-hand object recognition/localization capabilities.&lt;/p&gt;
-&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;a href=&#34;#status&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;The following video shows the prototype gripper classifying two test objects (geodesic spheres with hexagonal and triangular faces, that can be better felt by touch)&lt;/p&gt;
 &lt;iframe src=&#34;https://drive.google.com/file/d/1bOfoukle06T8DrrSyyc8ingNUB5qe8He/preview&#34; width=&#34;640&#34; height=&#34;360&#34; align =&#34;center&#34; &gt;&lt;/iframe&gt;
 &lt;p&gt;We can see that it falsely classifies objects once in a while.&lt;/p&gt;
@@ -120,7 +162,14 @@ The approach works reliably and is tested with boxes of different sizes and weig
 &lt;iframe src=&#34;https://drive.google.com/file/d/1L_x2ZVm-HVFxSDLjEirT3ZcQ40vBXKNi/preview&#34; width=&#34;640&#34; height=&#34;360&#34;&gt;&lt;/iframe&gt;
 &lt;p&gt;The classification probabilities during this motion are averaged to get a more accurate estimate of the object.&lt;/p&gt;
 &lt;p&gt;(Note: it has been tested only with symmetric objects, which are easy to roll and is still an ongoing project)&lt;/p&gt;
-&lt;h2 id=&#34;going-further&#34;&gt;Going Further&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;going-further&#34;&gt;Going Further&lt;a href=&#34;#going-further&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;More experimentation, primarily on the following would be explored as time permits.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;3D reconstruction using techniques using ICP.&lt;/li&gt;
@@ -146,12 +195,26 @@ The approach works reliably and is tested with boxes of different sizes and weig
 &lt;li&gt;
 &lt;a href=&#34;#status&#34;&gt;Status&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;a href=&#34;#what-and-why&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;BlindGrasp, as the name implies, aims at grasping objects when the robot&amp;rsquo;s eyes are blindfolded. This idea had been lingering in my mind, ever since I came across the GelSight optical tactile sensor. It is a tough and challenging problem and I have been making slow, yet good progress. This is the main project that I am spending my time now and has helped us to be the finalist in the &lt;em&gt;Kuka Innovation Award 2021&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Humans have excellent grasping capabilities in unstructured environments which are still unmatched by robots. This can be attributed to the dexterous human hand, robust visual and tactile sensing capabilities as well as to the intelligent brain which makes conscious and subconscious decisions.&lt;/p&gt;
 &lt;p&gt;Visual sensing is traditionally used extensively in robotics when compared to tactile sensing. Tactile sensing is harder, mainly due to the difficulty in interpreting and making sense of the complex tactile signals. The recent developments in machine learning - particularly Deep Reinforcement Learning has opened new possibilities in the making usage of such complex data.&lt;/p&gt;
 &lt;p&gt;We humans can effortlessly put a hand inside a bag, search by moving it around and pick up an item or we can use our hands to dig or sieve through granular medium like sand and pick up an object. This project explores building a system which learns manipulation and grasping skills in such vision denied environments.&lt;/p&gt;
-&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;a href=&#34;#previous-works&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;Grasping objects, using tactile sensing alone as well as in granular media are explored more recently. Following are some of the early works.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -168,7 +231,14 @@ The approach works reliably and is tested with boxes of different sizes and weig
 &lt;a href=&#34;#&#34;&gt;Multimodal Haptic Perception within Granular Media via Recurrent Neural Networks&lt;/a&gt; by S.Jia et al.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;There are almost no works combining tactile sensing- exploration and grasping objects in granular media&lt;/p&gt;
-&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;how&#34;&gt;How&lt;a href=&#34;#how&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;Bringing such novel manipulation capabilities to robots calls for better robot hands as well as algorithms. The stated goals of the project are&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Building a novel tactile sensing capable gripper&lt;/li&gt;
@@ -190,7 +260,14 @@ The approach works reliably and is tested with boxes of different sizes and weig
   &lt;iframe src=&#34;https://www.youtube.com/embed/a2rk8dN3KsA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;a href=&#34;#status&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;A novel gripper, with tactile sensing around the finger is built and we are collecting data from the real world environment. This would be augmented with data from the simulated environment and human demonstrations to train the RL agent for the task.&lt;/p&gt;
 &lt;p&gt;More updates coming soon, as it is an ongoing project..!&lt;/p&gt;
 &lt;/DIV&gt;
@@ -215,16 +292,37 @@ The approach works reliably and is tested with boxes of different sizes and weig
 &lt;li&gt;
 &lt;a href=&#34;#going-further&#34;&gt;Going Further&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;what-and-why&#34;&gt;What and Why&lt;a href=&#34;#what-and-why&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;Chero is my acronym for  Chef-Robot, an ongoing project motivated by my desire to have a personal robot arm to experiment with. My long term dream of such a robot was triggered into action by the  MIT Collaborative Intelligence Challenge 2019, in which I gave a try. In addition, it as an interesting challenge and learning oppertunity to build such a system from grounds up - mechanical design-electronics controls.&lt;/p&gt;
-&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;previous-works&#34;&gt;Previous Works&lt;a href=&#34;#previous-works&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;Direct drive robots are, as the name implies, are robots in which the motors directly drive the shaft without using a gearbox. It was introduced by Asada et al as early as early 80s 
 &lt;a href=&#34;https://www.ri.cmu.edu/pub_files/pub4/asada_haruhiko_1981_1/asada_haruhiko_1981_1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1]&lt;/a&gt;,
 &lt;a href=&#34;https://mitpress.mit.edu/books/direct-drive-robots&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2]&lt;/a&gt;. Direct drive robots have many inherent advantages like better torque control, dynamic response, zero backlash and friction etc. Despite all these advantages, the main disadvantage that prevented direct drive robots from becoming mainstream is mainly the low torque density of electrical motors. However, recent advancements in technology has brought us high torque BLDC motors, which are used either used directly or in combination with a  low gear ratio (&amp;lt;10) reducer. Notable robots include berkeley openarms
 &lt;a href=&#34;https://berkeleyopenarms.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[3]&lt;/a&gt;,   and numerous quadrupeds like MIT Cheetah 
 &lt;a href=&#34;https://ieeexplore.ieee.org/document/6631038&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;4&lt;/a&gt; and works by Gavin Kenneally et al
 &lt;a href=&#34;https://ieeexplore.ieee.org/document/7403902&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[5]&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;what-makes-it-special&#34;&gt;What makes it special&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;what-makes-it-special&#34;&gt;What makes it special&lt;a href=&#34;#what-makes-it-special&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Quasi-Direct Drive&lt;/li&gt;
 &lt;li&gt;Spherical shoulder and wrist joints&lt;/li&gt;
@@ -234,7 +332,14 @@ The approach works reliably and is tested with boxes of different sizes and weig
 &lt;p&gt;The Quasi- Direct drive system consists of timing belt driven axes with a reduction ratio of 3. High torque density gimbal BLDC motors are used to actuate these joints.&lt;/p&gt;
 &lt;p&gt;The robot also has spherical joints at both the shoulder and the wrist, which matches closely with human arms.  It is shown that such a wrist design can be quite helpful in dexterous manipulation applications 
 &lt;a href=&#34;https://ieeexplore.ieee.org/document/8624352&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[6]&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;a href=&#34;#status&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;The design is almost complete, parts machined-3dprinted and a video of first 4 DOF can be seen below
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -242,7 +347,14 @@ The approach works reliably and is tested with boxes of different sizes and weig
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;A 3DOF spherical wrist is also designed and assembled. It will be attached soon.&lt;/p&gt;
-&lt;h2 id=&#34;going-further&#34;&gt;Going Further&lt;/h2&gt;
+
+
+
+&lt;h2 id=&#34;going-further&#34;&gt;Going Further&lt;a href=&#34;#going-further&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;Implementing controllers, integrating with Drake&lt;/p&gt;
 &lt;/DIV&gt;
 </description>

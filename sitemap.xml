@@ -258,6 +258,26 @@
   </url>
   
   <url>
+    <loc>https://achuwilson.github.io/post/2016-06-12-icra16/</loc>
+    <lastmod>2016-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://achuwilson.github.io/post/</loc>
+    <lastmod>2016-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://achuwilson.github.io/tags/conference/</loc>
+    <lastmod>2016-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://achuwilson.github.io/tags/robotics/</loc>
+    <lastmod>2016-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://achuwilson.github.io/project/2015-2048/</loc>
     <lastmod>2015-10-27T00:00:00+00:00</lastmod>
   </url>
@@ -299,10 +319,6 @@
   
   <url>
     <loc>https://achuwilson.github.io/authors/achuwils/</loc>
-  </url>
-  
-  <url>
-    <loc>https://achuwilson.github.io/post/</loc>
   </url>
   
 </urlset>

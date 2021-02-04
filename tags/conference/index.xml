@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conference | Achu Wilson</title>
+    <link>https://achuwilson.github.io/tags/conference/</link>
+      <atom:link href="https://achuwilson.github.io/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>conference</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Achu Wilson 2021</copyright><lastBuildDate>Sun, 12 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://achuwilson.github.io/img/pom-card.png</url>
+      <title>conference</title>
+      <link>https://achuwilson.github.io/tags/conference/</link>
+    </image>
+    
+    <item>
+      <title>Attending ICRA and winning HRATC Challenge</title>
+      <link>https://achuwilson.github.io/post/2016-06-12-icra16/</link>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://achuwilson.github.io/post/2016-06-12-icra16/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;p&gt;I heard first time about the International Conference on Robotics and Automation ( ICRA) around 2013-14, mainly from the videos posted by IEEE Spectrum and IEEE VIdeo Friday. Soon,  I realized it is the big name robotics conference where academia as well as industry showcase their flashy demos. Since then, for the next couple of years, I would be always looking forward the ICRA time, where IEEE Spectrum would provide an update on the most recent research happening in robotics.&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;a-way-to-attend-the-conference-comes-up&#34;&gt;A way to attend the conference comes up&lt;a href=&#34;#a-way-to-attend-the-conference-comes-up&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;I always wished to attend these conferences, but not having an academic/research background as well as expensive registration as a non academic and expenses related to travel and accomodation held me back. I realized that there are robot competitions associated with the conference. I believe that these competitions got much press coverage mainly due to the Airbus Shopfloor challenge which had a hefty award money. I was more attracted towards the HRATC challenge, primarily because it related to autonomous navigation and SLAM, which was something I was exploring at my startup. Secondarily the fact that the challenge uses ROS as the platform and no hardware is necessary, relieved us from the expenses of building the hardware.&lt;/p&gt;
+&lt;p&gt;So, I teamed with two of my friends, Lentin Joseph &amp;amp; Chandykunju Alex. We named the team Autobots.
+The challenge involved autonomously searching and mapping an area for buried landmines using a UGV equipped with a metal detector. Teams were rewarded for detecting a landmine and marking it on map as well as on the area covered. Penalties were awarded for running over landmines and crashing into obstacles/trees. Initial elimination stages involved teams competing in the Gazebo simulator. In the intermediate stage, teams would be provided real data from the hardware as ROSBAG files and the code would be tested on them. The finals were scheduled to be conducted at ICRA 2016, in Stockholm. In the finals teams would be competing on real robot hardware. To make it more realistic like an inaccessible landmine filled zone, the robot was in another country, 1000s of miles away and we were only given remote access. We cleared the initial rounds effortlessly and made into the finals. Hurray..!! So here comes my opportunity to attend ICRA. I was so excited. This is going to be my first international trip, out of India and how better can it get when it is to the biggest robotics conference. A dream come true.&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;the-travel-an-an-unexpected-visit-to-dubai&#34;&gt;The travel, an an unexpected visit to Dubai&lt;a href=&#34;#the-travel-an-an-unexpected-visit-to-dubai&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;So, finally, its time to go to Stockholm. We borrowed money from friends and family, registered for the conference, got the visa, booked flight tickets, and decided to stay in an affordable hostel at a walkable distance from the conference venue.  Our flight was from Kochi to Stockholm with a layover in Dubai. Unfortunately, the flight from Kochi got delayed and we missed our connection flight from Dubai. The airlines shifted us to an airport hotel and rebooked the next days flight for us. Even though this seemed unfortunate, we got the chance to spend a day in Dubai and do sightseeing. We visited Burj Khalifa, Palm Jumeirah etc.
+&lt;img src=&#34;dubai.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;arriving-in-stockholm&#34;&gt;Arriving in Stockholm&lt;a href=&#34;#arriving-in-stockholm&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The next day, we arived in Stockholm. After clearing the immigration procedures, we heard our names being called out through the PA system.  We were requested to report to the airlines desk. Soon, we found out that the airlines forgot to pick our baggage from Dubai. They collected the address of our hostel and promised to deliver it next day( Which they didnt until the last day of the conference). So, we are now in a foreign country, with just the dress we are in and the laptop in backpack.&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;icra-expo&#34;&gt;ICRA EXPO&lt;a href=&#34;#icra-expo&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The exhibition stalls at the conference were one thing I was most looking forward to visit. I was excited to see the real robots up so close, the ones that I have seen only in youtube videos. Moreover I got to have interesting conversations with the people exhibiting them.
+In addition, we got so many free T-shirts which came handy due to our delayed baggage.
+&lt;img src=&#34;robots.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;meeting-my-heros&#34;&gt;Meeting my heros&lt;a href=&#34;#meeting-my-heros&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Another aspect was meeting those pioneers in robotics that you have only read about. These included Dr.Wolfram Burgard, Dr.Vijay Kumar from UPenn, Dr.Henrik Christensen,  Dr. Oussama Khatib, Dr. Magnus Egerstedt,  Dr.Melonee Wise, Dr Peter Corke, Dr. Giorgio Metta etc to name a few. I came to know them either as the professors in the MOOCs classes I took or from cool robot videos/research featured on IEEE Spectrum. Meeting them and talking with them (even though I didnt had much to contribute) was a dream come true. They can be said of my role models whom I aspire to be one day. ALl of them were very friendly and approachable and we even took selfies with them.
+&lt;img src=&#34;people.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;winning-the-challenge&#34;&gt;Winning the challenge&lt;a href=&#34;#winning-the-challenge&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The HRATC challenge was organized over two days.We had to upload our code to the remote robot and video of the robot in operation was live streamed&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;autobots.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Results from the performance on two days were averaged. On the first day, out team scored the lowest. Our navigation stack primarily used GPS coordinates for localization. It was cloudy at the remote robot site and we had trouble getting an accurate GPS fix often. This caused us so much issues in navigation.  After the first day, we pulled an all-nighter to re-write the navigation stack so that it doesn&amp;rsquo;t use GPS always and uses a probabilistic means of localization using the noisy and slippery wheel encoders and the unreliable GPS. We performed  much better the next day. But we were not much hopeful of making it to the top position, given our not that great performance on first day. The winners would only be announced on the last day of the conference. So we spend the rest of the time exploring the conference, attending talks, meeting people, etc.
+&lt;img src=&#34;award.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;exposure-to-research&#34;&gt;Exposure to Research&lt;a href=&#34;#exposure-to-research&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Attending the conference had a profound impact on my research career in robotics. I was like a kid who was excited about everything. I was interested in everything, ranging from research on robot manipulation, flying robots, navigation and SLAM, walking robots, novel hardware design and actuation, computer vision, and what not. Being a multi-track conference, it was so difficult for me to catch up with all the talks and presentations happening in different locations. I was running around, taking notes and taking photos of presentations to refer later. I became aware of the various subfields that I didn&amp;rsquo;t knew existed.  In addition, I  had interesting conversations and made many friends.&lt;/p&gt;
+&lt;p&gt;I addition to getting a broad overview of all the research happening in robotics, I had a firsthand experience of how the academic research and publishing works. I realized that I could also do research and publish papers.  I  realized that many of my side projects, with more experimentation and  documented could be turned into papers.&lt;/p&gt;
+
+
+
+&lt;h2 id=&#34;exploring-stockholm&#34;&gt;Exploring Stockholm&lt;a href=&#34;#exploring-stockholm&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;
+&lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Since this is the first  international trip for the three of us, we had decided to make the best use of it. We stayed for a couple more days after the conference to explore Stockholm. Since it was May, the weather outside was awesome. The city was clean, safe and filled with greenery. We explored the city mostly on foot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;stockholm.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/DIV&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

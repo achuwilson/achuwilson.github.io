@@ -660,13 +660,27 @@
 <li>
 <a href="#results">Results</a></li>
 </ol>
-<h2 id="what-and-why">What and Why</h2>
+
+
+
+<h2 id="what-and-why">What and Why<a href="#what-and-why"><svg class="anchor-symbol" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0h24v24H0z" fill="currentColor"></path>
+<path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+</svg></a>
+</h2>
 <p>Humans can manipulate objects in interesting ways without even grasping them. We make use of the properties of the object as well as the environment to push, flip, throw and squeeze objects.</p>
 <p>The following video shows a human hand pushing a paper box on a table and pivoting it around an edge. We can do such a task just by relying on the forces felt on the finger.</p>
 <p><img src="handdemo.gif" alt=""></p>
 <p>The 
 <a href="http://manipulation.csail.mit.edu" target="_blank" rel="noopener">MIT 6.881 Manipulation class</a> Fall 2020, which was offered entirely online, had a class project and I decided to try this. A Kuka LBR iiwa robot, fitted with a simple single finger end effector is used to achieve the task. The robot does not have the model of the object nor the environment (No prior knowledge of the dimensions of the box or the position coordinates of the edge). The workspace limitations of the robot restrict moving the object under the table, but the method could be extended for any such capable robot.</p>
-<h2 id="how">How</h2>
+
+
+
+<h2 id="how">How<a href="#how"><svg class="anchor-symbol" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0h24v24H0z" fill="currentColor"></path>
+<path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+</svg></a>
+</h2>
 <p>Since the model of the object and environment is not provided and no external vision sensors are used, proprioceptive data alone is to be used. The joint torques and position from the robot are used in combination with the impedance control capabilities of the iiwa to estimate the model parameters. This would be an almost impossible or incredibly difficult task with a conventional position-controlled stiff robot, even if equipped with a Force/Torque sensor. The entire system is implemented in Drake as a state machine. The following paragraphs detail the approach used.</p>
 <p>Initially, the robot moves at a constant velocity in the negative z-axis. Individual joint velocities are calculated from the desired velocity using a PsuedoInverseJacobian controller. Since the iiwa does not have a joint velocity input, the computed joint velocities are integrated to obtain the joint position inputs.
 <img src="push0.png" alt="">
@@ -700,7 +714,14 @@ While the robot is moving at such a constant velocity, the force on the end effe
 <img src="push6.png" alt=""></p>
 <p>Once the finger reaches the end of the above trajectory, a new trajectory is planned, along the same path to pivot the box back to the horizontal position. While executing this new trajectory, fingers move along the circular path, with tangential velocity and radial force components.</p>
 <p>Once the box is nearly vertical, the state machine transitions into a new state, in which the finger moves a little up or down to maintain a pre-determined vertical force on the box. This accounts for the accumulated position errors caused during the estimation of the model parameters. Once it is done, the state machine transitions it to the final state where the finger moves horizontally, moving the box to the initial position.</p>
-<h2 id="results">Results</h2>
+
+
+
+<h2 id="results">Results<a href="#results"><svg class="anchor-symbol" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0h24v24H0z" fill="currentColor"></path>
+<path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+</svg></a>
+</h2>
 <p>The following video (3x sped up) shows the system in action.</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -824,7 +845,7 @@ The approach works reliably and is tested with boxes of different sizes and weig
     <div class="media author-card content-widget-hr">
       
         
-        <img class="avatar mr-3 avatar-circle" src="/authors/achuwils/avatar_hu74660ffca5bb11632cdbb734a0c58b0f_131908_270x270_fill_q90_lanczos_center.jpg" alt="">
+        <img class="avatar mr-3 avatar-circle" src="/authors/achuwils/avatar_hu861bd7bb53fd7a326fd09d250b58026f_131936_270x270_fill_q90_lanczos_center.jpg" alt="">
       
 
       <div class="media-body">

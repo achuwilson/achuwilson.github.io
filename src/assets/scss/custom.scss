@@ -118,7 +118,9 @@ a.nav-link:hover:after {
 
 pre, code {
 	color: #508991;
-	background-color: #fff;
+  background-color: #fff;
+  padding-left: .5em;
+	padding-right: .5em;
 }
 
 pre {
@@ -151,6 +153,13 @@ div.alert-warning > div:first-child::before {
   content: "\f1e2";
 }
 
+div.alert-todo > div:first-child::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #D7ADD0;
+  content: "\f0ae";
+}
+
 .alert-note {
   color: #333;
   background-color: #fff;
@@ -171,6 +180,17 @@ div.alert.alert-warning {
   color: #d03b39;
   background-color: #fdf4f4;
   border-top: 2px solid #004346;
+  border-radius: 0px; /*undo rounded corners*/
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  padding: 23px 10px 21px 10px;
+}
+
+div.alert.alert-todo {
+  color: #004346;
+  background-color: #fff;
+  border-top: 4pt solid #D7ADD0;
   border-radius: 0px; /*undo rounded corners*/
   border-right-style: none;
   border-bottom-style: none;
@@ -290,4 +310,68 @@ iframe {
 
 .section-heading p {
 	color: #004346;
+}
+
+/* For 2-column article layout with TOC on right */
+.article-container {
+	max-width: 1200px;
+}
+
+.col-lg-2ish {
+  flex:0 0 20%;
+  max-width:20%;
+  padding-right: 0px !important;
+ }
+ 
+.col-lg-10ish {
+  flex:0 0 80%;
+  max-width:80%;
+ }
+ 
+#TableOfContents li a, .toc-top li a {
+	padding: .125rem .5rem;
+	font-size: .8rem;
+	color: #1a162d99;
+}
+
+#TableOfContents {
+	border-left: 1px solid #09bc8a3d;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html, body {
+  scroll-padding-top: 100px;
+}
+
+
+/* --------Blog posts--------- */
+/* Headers within blogs */
+
+.article-style h1:not(:first-child),
+.article-style h2:not(:first-child),
+.article-style h3:not(:first-child) {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+/*---fix code scrolling-- */
+pre {
+  white-space: pre-wrap;
+}
+
+/*---anchor headings-- */
+
+a > svg.anchor-symbol {
+  color: transparent;
+  margin-bottom: .5rem;
+  margin-left: .5rem;
+  fill: #1a162d99;
+}
+
+a > svg.anchor-symbol:hover {
+  fill: #06805E;
+  transition: fill 0.6s ease;
 }
