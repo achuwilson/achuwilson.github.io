@@ -1,5 +1,5 @@
 ---
-title: MR CLutch
+title: MR Clutch
 summary: Magneto-Rheological Clutch for safe Human-Robot interaction.
 abstract: "Magneto-Rheological Clutch for safe Human-Robot interaction "
 date: "2017-04-27T00:00:00Z"
