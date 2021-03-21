@@ -55,9 +55,9 @@ superuser: true
 
 <DIV align="justify">
 
-I am a roboticist, currently working at [Robert Bosch Centre for Cyber Physical Systems](https://cps.iisc.ac.in/) at [Indian Institute of Science (IISc)](https://iisc.ac.in/), Bangalore. My research interests involve tactile sensing for robot manipulation, in-hand manipulation and reinforcement learning. I would say that I am more of a full stack roboticist and have experience building mechanical systems, designing electronics and writing code. 
+I am a roboticist, currently working at [Robert Bosch Centre for Cyber Physical Systems](https://cps.iisc.ac.in/) at [Indian Institute of Science (IISc)](https://iisc.ac.in/), Bangalore, under [Dr.Bharadwaj Amrutur](https://aml.ece.iisc.ac.in/index.php/Bharadwaj_Amrutur). My research interests involve robot manipulation and tactile sensing. Over the years working in industry, startups and academia, I have gained experience building mechanical systems, designing electronics, writing code and managing teams. 
 
-Prior to joining IISc I used to work ( and still collaborate) with the Perception Science Group at CSAIL MIT. 
+Prior to joining IISc I worked under [Dr.Edward Adelson](http://persci.mit.edu/people/adelson) at the Perception Science Group at CSAIL MIT . 
 
 I am also one of the co-founders and was the CTO of [Sastra Robotics](https://sastrarobotics.com/).  Sastra builds robots to automate the functional testing of devices: ranging from smartphones to cockpit avionic panels. Later I stepped down, as the startup matured, to pursue a career in academia. Since then, I also serve as a technical consultant for Sastra.
 
