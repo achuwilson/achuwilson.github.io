@@ -1,5 +1,8 @@
 
 To run on local sysytem, install hugo extended for linux
+
+snap install hugo --channel=extended
+
 then from this directory, run 
 `hugo serve`
 

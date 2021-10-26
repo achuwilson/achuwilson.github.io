@@ -55,11 +55,18 @@ superuser: true
 
 <DIV align="justify">
 
-I am a roboticist, currently working at [Robert Bosch Centre for Cyber Physical Systems](https://cps.iisc.ac.in/) at [Indian Institute of Science (IISc)](https://iisc.ac.in/), Bangalore, under [Dr.Bharadwaj Amrutur](https://aml.ece.iisc.ac.in/index.php/Bharadwaj_Amrutur). My research interests involve robot manipulation and tactile sensing. Over the years working in industry, startups and academia, I have gained experience building mechanical systems, designing electronics, writing code and managing teams. 
+I am a roboticist with both an academic and industrial background. In academia, I focus my research on robot manipulation, tactile sensing and machine learning, whereas on the industrial side, I have co-founded a robotics company, led and managed R&D and production teams, designed hardware and software in current commercial use.
 
-Prior to IISc, I worked under [Dr.Edward Adelson](http://persci.mit.edu/people/adelson) at the Perception Science Group at CSAIL MIT. 
+I am currently pursuing graduate school and does research under [Dr.Wenzhen Yuan](https://www.ri.cmu.edu/ri-faculty/wenzhen-yuan/) at the RoboTouch Lab at Carnegie Mellon University on manipulating flexible components such as cables using tactile sensing for industrial assembly tasks.
 
-I am also one of the co-founders and was the CTO of [Sastra Robotics](https://sastrarobotics.com/).  Sastra builds robots to automate the functional testing of devices: ranging from smartphones to cockpit avionic panels. Later I stepped down, as the startup matured, to pursue a career in academia. Since then, I also serve as a technical consultant for Sastra.
 
+Previously I did research at the [Robert Bosch Centre for Cyber Physical Systems](https://cps.iisc.ac.in/) in [Indian Institute of Science (IISc)](https://iisc.ac.in/), Bangalore, under [Dr.Bharadwaj Amrutur](https://aml.ece.iisc.ac.in/index.php/Bharadwaj_Amrutur), where I led the joint IISc-MIT team for the Kuka Innovation AI Challenge 2021. Prior to IISc, I worked under [Dr.Edward Adelson](http://persci.mit.edu/people/adelson) at the Perception Science Group at CSAIL MIT.
+
+
+
+My skills include research, programming - real time embedded systems, computer vision, machine learning , Python/C++ application development, ROS, industrial robot programming of UR and Kuka robots. I am also well versed with mechanical design, love iterative prototyping and enjoy getting my hands dirty in the machine shop.
+
+
+When I am not working on robots, I would be spending time reading, biking or exploring new places, nature or cuisines.  
 </DIV>
 

@@ -1,329 +1,199 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://achuwilson.github.io/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/categories/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2021-edgepivot/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/tags/software/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/categories/software-projects/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/tags/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/tags/wip/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2020-in-hand-rolling/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2020-blindgrasp/</loc>
     <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/alison/</loc>
     <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/talk/</loc>
     <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/</loc>
     <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/desiree-de-leon/</loc>
     <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/tags/rmarkdown/</loc>
     <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/talk/2020-sharing-short-notice/</loc>
     <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/categories/talk/</loc>
     <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2020-fingervision-seg/</loc>
     <lastmod>2020-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2019-chero/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/tags/hardware/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/categories/hardware-projects/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/publication_types/9/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/achu-wilson/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/branden-romero/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/publication/2019-gelsighthand/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/edward-adelson/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/publication_types/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/publication/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/shaoxiong-wang/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2019-gelsighthand/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/daniel-fernandes-gomes/</loc>
     <lastmod>2019-05-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/publication/2019-getsight-sim2real/</loc>
     <lastmod>2019-05-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/shan-luo/</loc>
     <lastmod>2019-05-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2019-gelsight_sim2real/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2019-pulleydrive/</loc>
     <lastmod>2019-03-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/projects/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/about/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/resume/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/talks/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/license/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/publication/2018-finger-icra/</loc>
     <lastmod>2018-05-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2018-roundfinger/</loc>
     <lastmod>2018-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2017-gelsight_sim/</loc>
     <lastmod>2017-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/post/</loc>
     <lastmod>2017-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/tags/conference/</loc>
     <lastmod>2017-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/post/2017-06-15-icra17/</loc>
     <lastmod>2017-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/tags/robotics/</loc>
     <lastmod>2017-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/publication_types/1/</loc>
     <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/publication/2017-magnetorheological-clutch/</loc>
     <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2017-activespine_quadruped/</loc>
     <lastmod>2017-05-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2017-mrclutch/</loc>
     <lastmod>2017-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/publication_types/8/</loc>
     <lastmod>2017-03-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/akhil-a/</loc>
     <lastmod>2017-03-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/aronin-p/</loc>
     <lastmod>2017-03-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/publication/2017-touchtest-patent/</loc>
     <lastmod>2017-03-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/post/2016-06-12-icra16/</loc>
     <lastmod>2016-06-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2015-2048/</loc>
     <lastmod>2015-10-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2015-quadrotor_landing/</loc>
     <lastmod>2015-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2010-chippu/</loc>
     <lastmod>2011-10-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/tags/embedded/</loc>
     <lastmod>2011-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2011-haps/</loc>
     <lastmod>2011-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2009-rollerbot/</loc>
     <lastmod>2010-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2009-smart_notice_board/</loc>
     <lastmod>2010-03-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/project/2009-self-parking-car/</loc>
     <lastmod>2009-03-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://achuwilson.github.io/authors/achuwils/</loc>
   </url>
-  
 </urlset>
