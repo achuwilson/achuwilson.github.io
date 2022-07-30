@@ -59,7 +59,7 @@ I am a roboticist with both an academic and industrial background. In  academia,
 
 I am currently pursuing a graduate research program at the RoboTouch Lab at Carnegie Mellon University, under [Dr.Wenzhen Yuan](https://www.ri.cmu.edu/ri-faculty/wenzhen-yuan/). My research focuses on using tactile sensing to make robots learn how to manipulate flexible components such as cables.
 
-Previously, I did research at the [Robert Bosch Centre for Cyber Physical Systems](https://cps.iisc.ac.in/) in [Indian Institute of Science (IISc)](https://iisc.ac.in/), Bangalore, under [Dr.Bharadwaj Amrutur](https://aml.ece.iisc.ac.in/index.php/Bharadwaj_Amrutur), where I led the joint IISc-MIT team for the Kuka Innovation AI Challenge 2021. Before IISc, I did research under [Dr.Edward Adelson](http://persci.mit.edu/people/adelson) at the Perception Science Group at CSAIL MIT.
+Previously, I did research at the [Robert Bosch Centre for Cyber Physical Systems](https://cps.iisc.ac.in/) in [Indian Institute of Science (IISc)](https://iisc.ac.in/), Bangalore, under [Dr.Bharadwaj Amrutur](https://aml.ece.iisc.ac.in/index.php/Bharadwaj_Amrutur), where I led the joint IISc-MIT team for the Kuka Innovation AI Challenge 2021. Before IISc, I did research under [Dr.Edward Adelson](http://persci.mit.edu/people/adelson) on building sensorized robot hands at the Perception Science Group at CSAIL MIT.
 
 My skills include research, programming - real time embedded systems, computer vision, machine learning , Python/C++ application development, ROS, industrial robot programming of UR and Kuka robots. I am also well versed with mechanical design, love iterative prototyping and enjoy getting my hands dirty in the machine shop.
 
