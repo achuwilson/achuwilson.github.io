@@ -3,7 +3,7 @@ abstract = "This work details the design of a novel two finger robot gripper wit
 
 authors = ["Achu Wilson", "Shaoxiong Wang", "Branden Romero", "Edward Adelson"]
 date = "2019-11-05"
-image_preview = ""
+image_preview = "img/gelsighthand.jpg"
 math = true
 publication_types = ["9"]
 publication = "In  RoboTac Workshop, *International Conference on Intelligent Robotics and Systems (IROS), Macau*"
@@ -16,6 +16,8 @@ url_pdf = "pdf/2019-gelsighthand-iros.pdf"
 url_project = ""
 url_slides = ""
 url_video = "https://youtu.be/4hxsZ9nHJWI"
+
+featured = false
 
 [[url_custom]]
 #name = "Buy on Amazon"

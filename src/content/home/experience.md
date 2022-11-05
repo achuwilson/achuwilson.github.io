@@ -26,8 +26,8 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   Responsibilities include:
-  
-  * Analysing
+
+  * [Analysing](www.g.com)
   * Modelling
   * Deploying
   """

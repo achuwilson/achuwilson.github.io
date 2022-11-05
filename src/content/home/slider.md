@@ -42,7 +42,7 @@ height = "325px"
   overlay_color = "#404040"  # An HTML color value.
   overlay_img = "headers/daisy.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-  
+
   cta_label = "see my projects"
   cta_url = "/projects"
   cta_icon_pack = "fas"
@@ -61,7 +61,7 @@ height = "325px"
   cta_url = "/projects"
   cta_icon_pack = "fas"
   cta_icon = "spa"
-  
+
 [[item]]
   title = ""
   content = "\"I really liked the content + Alison's teaching style.\""
@@ -75,7 +75,7 @@ height = "325px"
   cta_url = "/projects"
   cta_icon_pack = "fas"
   cta_icon = "spa"
-  
+
 [[item]]
   title = ""
   content = "\"Alison was great - very knowledgeable, accessible and good sense of humor.\""
@@ -89,7 +89,7 @@ height = "325px"
   cta_url = "/projects"
   cta_icon_pack = "fas"
   cta_icon = "spa"
-  
+
 [[item]]
   title = ""
   content = "\"Alison Hill was a patient instructor who listened to questions and carefully answered them. Clearly, the content had a LOT of thought put into it. Even the timing of the workshop was pretty perfect.\""
@@ -103,7 +103,7 @@ height = "325px"
   cta_url = "/projects"
   cta_icon_pack = "fas"
   cta_icon = "spa"
-  
+
 [[item]]
   title = ""
   content = "\"It [was] so well-organized and Alison is so awesome as an instructor.\""
@@ -117,7 +117,7 @@ height = "325px"
   cta_url = "/projects"
   cta_icon_pack = "fas"
   cta_icon = "spa"
-  
+
 [[item]]
   title = ""
   content = "\"Alison is excellent!\""
@@ -131,7 +131,7 @@ height = "325px"
   cta_url = "/projects"
   cta_icon_pack = "fas"
   cta_icon = "spa"
-  
+
 [[item]]
   title = ""
   content = "\"Alison is an absolutely amazing presenter! Really really enjoyed the workshop. Thank you!\""
@@ -145,7 +145,7 @@ height = "325px"
   cta_url = "/projects"
   cta_icon_pack = "fas"
   cta_icon = "spa"
-  
+
 [[item]]
   title = ""
   content = "\"Alison was a good presenter, trying to make difficult topics understandable and having good energy and enthusiasm for the subject matter.\""
@@ -159,7 +159,7 @@ height = "325px"
   cta_url = "/projects"
   cta_icon_pack = "fas"
   cta_icon = "spa"
-  
+
 [[item]]
   title = ""
   content = "\"This was an inspiring workshop! I look forward to trying out what I learned in real life!\""
@@ -173,7 +173,7 @@ height = "325px"
   cta_url = "/projects"
   cta_icon_pack = "fas"
   cta_icon = "spa"
-  
+
 [[item]]
   title = ""
   content = "\"I enjoyed your workshop and learned a lot. Thanks for your enthusiastic way of teaching.\""
@@ -187,7 +187,7 @@ height = "325px"
   cta_url = "/projects"
   cta_icon_pack = "fas"
   cta_icon = "spa"
-  
+
 [[item]]
   title = ""
   content = "\"Alison is fantastic, did her best to explain not so easy to understand concepts.\""
@@ -201,7 +201,7 @@ height = "325px"
   cta_url = "/projects"
   cta_icon_pack = "fas"
   cta_icon = "spa"
-  
+
 [[item]]
   title = ""
   content = "\"I appreciated the thoughtfulness of the workshop. I liked that things were broken down and we were building up an understanding and code.\""

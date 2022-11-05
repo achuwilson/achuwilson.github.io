@@ -14,3 +14,8 @@ To add a new publication type:, add a new catogary-id in themes/hugo-academic/da
 Place the pdf of publications in static/pdf/file.pdf and refer it in files as pdf/file.pdf
 
 To add a new tag for the project type. add it to content/projects/projects.md
+
+To add more sections to home page ( highlight papers, tags, experience, etc) -  edit  src/content/home corresponding section
+
+Adding the src/themes/hugo-academic/layouts/partials/widgets/about.html has been edited to 
+

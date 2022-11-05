@@ -17,6 +17,10 @@
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
 {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
 
+{{ $highlight_page_path := (printf "/highlight/index.md" ) }}
+{{ $highlight_page := site.GetPage $highlight_page_path }}
+
+
 <!-- About widget -->
 <div class="row">
   <div class="col-12 col-lg-4">
@@ -66,6 +70,15 @@
       </ul>
 
     </div>
+
+    <div class="col-12 col-lg-12">
+        <div id="recent" >
+          <font size="3">
+             {{ $highlight_page.Content }}
+          </font>
+        </div>
+    </div>
+
   </div>
   <div class="col-12 col-lg-8">
 

@@ -23,11 +23,11 @@ subtitle = ""
 
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
-  
+
   # Background image.
   image = ""  # Name of image in `static/img/`.
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
@@ -40,9 +40,9 @@ subtitle = ""
   padding = ["20px", "0", "20px", "0"]
 
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = ""
- 
+
  # CSS class.
  css_class = "mini"
 +++
@@ -60,7 +60,7 @@ My [research](https://profiles.impactstory.org/u/0000-0002-8082-1890) focused on
 
 <img src="students2.jpg" class="center-block" alt="Lab meeting" style="width:60%;">
 
-While at OHSU, I became an avid user of the statistical programming language R, both in the lab as a Principal Investigator and in the classroom as a professor. I developed a passion for programming and education, and during my tenure at OHSU I developed and taught multiple graduate-level [data science courses](/categories/course/) and [workshops](/categories/workshop/). 
+While at OHSU, I became an avid user of the statistical programming language R, both in the lab as a Principal Investigator and in the classroom as a professor. I developed a passion for programming and education, and during my tenure at OHSU I developed and taught multiple graduate-level [data science courses](/categories/course/) and [workshops](/categories/workshop/).
 
 <img src="ropensci.jpg" class="center-block" alt="ROpenSci Unconference" style="width:60%;">
 

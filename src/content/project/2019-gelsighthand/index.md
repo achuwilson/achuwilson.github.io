@@ -1,6 +1,6 @@
 ---
 title: Gelsight Gripper
-summary: Fully Actuated Robotic hand with Multiple GelSight Tactile Sensors 
+summary: Fully Actuated Robotic hand with Multiple GelSight Tactile Sensors
 abstract: "Fully Actuated Robotic hand with Multiple GelSight Tactile Sensors "
 date: "2019-05-27T00:00:00Z"
 external_link: ""
@@ -26,7 +26,7 @@ image:
 categories:
 - Hardware Projects
 tags:
-- hardware 
+- hardware
 
 
 url_code: ""
@@ -57,6 +57,3 @@ This  work  details  the  design  of  a  novel  two  fin-ger  robot  gripper  wi
 ## Going Further
 In hand manipulation tasks, object localisation
 </DIV>
-
-
-
