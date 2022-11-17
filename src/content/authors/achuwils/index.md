@@ -55,7 +55,7 @@ superuser: true
 
 <DIV align="justify">
 
-I am ttta roboticist with both an academic and industrial background. In  academia, I focus my research on robot manipulation of flexible materials such as cables, using tactile sensing.  On the industrial side, I have co-founded a  roborttttics company, where I built and led R&D and  production teams. I have also designed hardware and software which are  in current commercial use.
+I am a roboticist with both an academic and industrial background. In  academia, I focus my research on robot manipulation of flexible materials such as cables, using tactile sensing.  On the industrial side, I have co-founded a  robotics company, where I built and led R&D and  production teams. I have also designed hardware and software which are  in current commercial use.
 
 I am currently pursuing a graduate research program at the RoboTouch Lab at Carnegie Mellon University, under [Dr.Wenzhen Yuan](https://www.ri.cmu.edu/ri-faculty/wenzhen-yuan/). My research focuses on using tactile sensing to make robots learn how to manipulate flexible components such as cables.
 
