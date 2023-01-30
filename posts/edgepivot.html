@@ -84,9 +84,9 @@
       </div>
 
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-12">
           <h1 id="post"> Non-Prehensile manipulation for pivoting around corners without slipping.</h2>
-            <p align="justify">
+            <p align="justify" style="font-size:18px" >
 
             Humans can manipulate objects in interesting ways without even grasping them. We make use of the properties of the object as well as the environment to push, flip, throw and squeeze objects.
 
@@ -99,10 +99,10 @@
           </div>
 
           <br>
-          <p align="justify" >The above video shows a human hand pushing a paper box on a table and pivoting it around an edge. We can do such a task just by relying on the forces felt on the finger</p>
+          <p align="justify" style="font-size:18px" >The above video shows a human hand pushing a paper box on a table and pivoting it around an edge. We can do such a task just by relying on the forces felt on the finger</p>
           <br>
           <h2 id="intro">Introduction</h2>
-          <p align="justify">
+          <p align="justify" style="font-size:18px" >
             The MIT 6.881 Manipulation class Fall 2020, which was offered entirely online, 
             had a class project and I decided to try this. A Kuka LBR iiwa robot, fitted with a
              simple single finger end effector is used to achieve the task. The robot does not 
@@ -111,7 +111,7 @@
              The workspace limitations of the robot restrict moving the object under the table, 
              but the method could be extended for any such capable robot.
           </p>
-          <p align="justify">
+          <p align="justify" style="font-size:18px" >
             Since the model of the object and environment is not provided and no external vision
              sensors are used, proprioceptive data alone is to be used. The joint torques and 
              position from the robot are used in combination with the impedance control capabilities 
@@ -122,7 +122,7 @@
           
           </p>
           <h2 id="intro">Approach</h2>
-          <p align="justify">
+          <p align="justify" style="font-size:18px" >
             Initially, the robot moves at a constant velocity in the negative z-axis. Individual 
             joint velocities are calculated from the desired velocity using a PsuedoInverseJacobian 
             controller. Since the iiwa does not have a joint velocity input, the computed joint 
@@ -131,20 +131,20 @@
           <div  align="center">
             <img class="img-responsive" src="../images/push0.png" alt="Pushing on block from top" width="80%" height="auto" /><br />
           </div>
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             While the robot is moving at such a constant velocity, the force on the end effector 
             is being monitored. IIWA provides joint torques estimated at the 7 joints. The external 
             wrench at the end effector is calculated using the PsuedoInverseJacobian method. 
             When the z-axis force is above an experimentally determined threshold, the state machine 
             transitions into the next state.
           </p >
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             Once the finger touches the box, it applies a downward force and a forward velocity 
             such that the resultant force is outside the friction cone of the contact between 
             the box and table. Since the friction coefficient is unknown, the forces are determined
              experimentally.
           </p>
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             The Drake Kuka driver allows us to provide a feedforward torque to each joint. 
             The individual feedforward torque values are calculated from the desired end-effector 
             wrench using the Jacobian transpose methods and commanded.
@@ -152,14 +152,14 @@
           <div  align="center">
             <img class="img-responsive" src="../images/push1.png" alt="Pushing on block from top" width="80%" height="auto" /><br />
           </div>
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             As the finger approaches the edge of the table, interesting things start to happen.
           </p>
           <div  align="center">
             <img class="img-responsive" src="../images/push2.png" alt="Pushing on block from top" width="80%" height="auto" /><br />
           </div>
 
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             As the center of gravity moves past the edge, the gravitational force acting on it
              causes a torque centered around the edge. This torque generates an upwards force 
              on the fingers (green up arrows). Since the iiwa operates in impedance control mode, 
@@ -169,7 +169,7 @@
              and is used to transition the state machine to the next state.
           </p>
 
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             Once the box starts pivoting, the finger continues moving in the x-axis,
              until the vertical z-axis reaction force generated by the box on the finger is zero.
               The gravitational force on the object would be balanced by the horizontal component 
@@ -179,20 +179,20 @@
           <div  align="center">
             <img class="img-responsive" src="../images/push3.png" alt="Pushing on block from top" width="80%" height="auto" /><br />
           </div>
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             The following plot shows the z axis finger coordinates during this time and we can clearly see the arc.
           </p>
           <div  align="center">
             <img class="img-responsive" src="../images/push4.png" alt="Pushing on block from top" width="80%" height="auto" /><br />
           </div>
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             The following graph shows the forces and their derivatives on the finger until the box is balanced between the finger and the corner (T3).
           </p>
           <div  align="center">
             <img class="img-responsive" src="../images/push5.png" alt="Pushing on block from top" width="80%" height="auto" /><br />
           </div>
-          <p align="justify" >
-            <ul>
+          <p align="justify" style="font-size:18px" >
+            <ul  style="font-size:18px" >
               <li>From 0 to T1, the finger moves down at the constant velocity. The force readings are quite noisy when the finger is not
                  in contact with anything and the accuracy is only +/-5N.</li>
               <li>The spike at T1 is caused by contact with the object.</li>
@@ -214,14 +214,14 @@
           <div  align="center">
               <img class="img-responsive" src="../images/push6.png" alt="Pushing on block from top" width="80%" height="auto" /><br />
           </div>
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             Once we estimate the center and radius from the arc, we plan a trajectory along the perimeter,
              starting from the current finger position and finishing at a position when the box is vertical.
           </p>
           <div  align="center">
               <img class="img-responsive" src="../images/push7.png" alt="Pushing on block from top" width="80%" height="auto" /><br />
           </div>
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             The trajectory includes the positions of each frame (blue dots) as well as the forces (green arrows) 
             at all these frames. This makes sure that while pivoting, the vector sum of forces direct towards 
             the corner position.
@@ -232,12 +232,12 @@
           <div  align="center">
             <img class="img-responsive" src="../images/push8.png" alt="Pushing on block from top" width="80%" height="auto" /><br />
           </div>
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             Once the finger reaches the end of the above trajectory, a new trajectory is planned, along the same path to pivot the box back to the horizontal position. 
             While executing this new trajectory, fingers move along the circular path, with tangential velocity and radial force components.
 
           </p>
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             Once the box is nearly vertical, the state machine transitions into a new state, in which the finger moves a little up or down to maintain
              a pre-determined vertical force on the box. This accounts for the accumulated position errors caused 
              during the estimation of the model parameters. Once it is done, the state machine transitions it to
@@ -256,7 +256,7 @@
           </div>
 
 
-          <p align="justify" >
+          <p align="justify" style="font-size:18px" >
             The approach works reliably and is tested with boxes of different sizes and weights as well as for different table positions.
             <br><br>  
             The following areas could be improved for better performance.
@@ -266,7 +266,7 @@
 
 
 
-          <ul>
+          <ul  style="font-size:18px" >
             <li>The system cannot detect the slip that might occur. A tactile sensorized finger (GelSight?) could be used for this.</li>
             <li>The joint torques reported by iiwa are not very accurate and are also pose dependant. 
               This could be improved using an external F/T sensor.</li>
