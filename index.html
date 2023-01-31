@@ -16,11 +16,12 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Oswald:700"
-      rel="stylesheet"
-      type="text/css"
-    />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" 
+          rel="stylesheet"
+          type="text/css"
+          >
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44991178-2"></script>
@@ -38,7 +39,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-inverse">
       <div class="container">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav" style="font-size:22px" >
           <li><a href="#">Home</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
@@ -58,27 +59,14 @@
           <!-- Main Image -->
           <img class="img-responsive" src="photo.jpg" alt="" /><br />
 
-          <div style="margin-top: 3%; text-align: justify">
-            <p>
-              I am a roboticist with both an academic and industrial background. In academia, I focus my research on robot manipulation of flexible materials such as cables, using tactile sensing. On the industrial side, I have co-founded a robotics company, where I built and led R&D and production teams. I have also designed hardware and software which are in current commercial use.
-            </p>
-            <p>
-I am currently pursuing a graduate research program at the RoboTouch Lab at Carnegie Mellon University, under Dr.Wenzhen Yuan. My research focuses on using tactile sensing to make robots learn how to manipulate flexible components such as cables.
-            </p>
-            <p>
-Previously, I did research at the Robert Bosch Centre for Cyber Physical Systems in Indian Institute of Science (IISc), Bangalore, under Dr.Bharadwaj Amrutur, where I led the joint IISc-MIT team for the Kuka Innovation AI Challenge 2021. Before IISc, I did research under Dr.Edward Adelson on building sensorized robot hands at the Perception Science Group at CSAIL MIT.
-  </p>
-  <p>
-My skills include research, programming - real time embedded systems, computer vision, machine learning , Python/C++ application development, ROS, industrial robot programming of UR, Kuka and Motoman robots. I am also well versed with mechanical design, love iterative prototyping and enjoy getting my hands dirty in the machine shop.
-
-
-            </p>
+          <div style="margin-top: 3%; text-align: justify" style="font-size:16px">
+            
           </div>
         </div>
 
         <!-- Contact Info on the Sidebar -->
         <div class="col-md-4">
-          <div style="font-family: 'Oswald', sans-serif; font-size: 32px">
+          <div style="font-family: 'Roboto', sans-serif; font-size: 32px">
             <b>Achu Wilson</b>
           </div>
           <br />
@@ -111,12 +99,35 @@ My skills include research, programming - real time embedded systems, computer v
         </div>
       </div>
 
+      
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-12"  style="text-align: justify; font-size:17px">
+
+          <p >
+            &emsp; I am a roboticist with both an academic and industrial background. In academia, I focus my research on robot manipulation of flexible materials such as cables, using tactile sensing. On the industrial side, I have co-founded a robotics company, where I built and led R&D and production teams. I have also designed hardware and software which are in current commercial use.
+          </p>
+
+          <p >
+            &emsp; I am currently pursuing a graduate research program at the RoboTouch Lab at Carnegie Mellon University, under Dr.Wenzhen Yuan. My research focuses on using tactile sensing to make robots learn how to manipulate flexible components such as cables.
+          </p>
+
+          <p >
+            &emsp; Previously, I did research at the Robert Bosch Centre for Cyber Physical Systems in Indian Institute of Science (IISc), Bangalore, under Dr.Bharadwaj Amrutur, where I led the joint IISc-MIT team for the Kuka Innovation AI Challenge 2021. Before IISc, I did research under Dr.Edward Adelson on building sensorized robot hands at the Perception Science Group at CSAIL MIT.
+          </p>
+
+          <p>
+            &emsp; My skills include research, programming - real time embedded systems, computer vision, machine learning , Python/C++ application development, ROS, industrial robot programming of UR, Kuka and Motoman robots. I am also well versed with mechanical design, love iterative prototyping and enjoy getting my hands dirty in the machine shop.
+          </p>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
           <h2 id="news">News</h2>
 
-          <ul>
-            <li>I'm on the job market and am looking for positions globally starting in mid-2023. Please let me know if you interested in having a discussion!
+          <ul style="font-size:17px">
+            <li>I'm on the job market and am looking for positions starting in mid-2023. Please let me know if you interested in having a discussion!
             </li>
             <li><strong>[Jan 2023] </strong> Our new paper (Cable Routing and Assembly using Tactile-driven Motion Primitives) is accepted for ICRA 2023. Preprints coming out soon!</li>
             <li><strong>[Jan 2023] </strong> First stable release of <strong> <a href="https://github.com/achuwilson/easy_ur" target="_blank" > Easy_UR</a></strong>  -  a library to control UR series of robots</li>
@@ -127,102 +138,107 @@ My skills include research, programming - real time embedded systems, computer v
 
 
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-12">
           <h2 id="education">Education</h2>
 
-          <strong>MS Research, MechE- Robotics and Controls</strong><br />
-          <p>
-            Carnegie Mellon University (Sep 2021 – May 2023, Pittsburgh, US)<br />
-            
+         <u><strong style="font-size: 16px">MS Research, MechE- Robotics and Controls</strong></u>
+          <p style="font-size: 16px">
+            <strong  style="font-size: 15px"> Carnegie Mellon University (Sep 2021 – May 2023, Pittsburgh, US)</strong>
+            <br>Courses: Machine Learning (24-787), Mechanics of Manipulation (16-741), AI for Manipulation (16-740), Computer Vision (24-678),
+            Statistical Techniques/Reinforcement Learning for Robotics(16-831), Robot Cognition for Manipulation(16-890), Optimization (18-660), Bio-Inspired Robotics(24-775).
 
           </p>
 
+          <u><strong style="font-size: 16px" >Visiting Graduate Student, EECS</strong></u>
+          <p style="font-size: 16px">
+            <strong  style="font-size: 15px">Massachusetts Institute of Technology (Oct 2018 – Oct 2019, Cambridge, USA)</strong>
+            <br>Courses: Introduction to Robotics (2.12), Robotic Manipulation (6.881)
+          </p>
 
-
-          <strong>B.Tech in Electronics and Communication Engineering</strong><br />
-          <p>
-            University of Calicut (Sep 2008 – May 2012, India)<br />
+          <u><strong style="font-size: 16px" >B.Tech in Electronics and Communication Engineering</strong></u>
+          <p style="font-size: 16px">
+            <strong  style="font-size: 15px">University of Calicut (Sep 2008 – May 2012, India)</strong>
+            <br>Courses: Electronic Circuits, Control Systems, Embedded Systems, Communication Systems
           </p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-12" style="font-size: 17px">
           <h2 id="experience">Experience</h2>
-
-          <strong>Graduate Research Assistant</strong><br />
+          
+          <strong style="font-size: 18px">Graduate Research Assistant </strong>
           <p>
-            Robotouch Group, Robotics Institute, CMU, Sept 2021 – Present, Pittsburgh, US
-            <br />
-            <i>
-              - Developed tactile driven manipulation primitives and skills for cable
-                routing and assembly tasks <br />
-              - Optimized fabrication techniques on curved GelSight Sensors <br />
-              - Implemented tactile based hybrid force - position controllers for UR5 Robots<br />
-              - Developed and maintained the manipulation pipeline (including easy_ur) used for various other projects <br />
-            </i>
+            <strong  style="font-size: 16px"> <i>RoboTouch Group, Robotics Institute, CMU, Sept 2021 – Present, Pittsburgh, US</strong> </i>
+            <ul style="margin-top:-10px; line-height:1.3;" >
+              <li > Developed tactile driven manipulation primitives and skills for cable routing and assembly tasks.</li>
+              <li> Optimized fabrication techniques on curved GelSight Sensors.</li>      
+              <li> Implemented tactile based hybrid force - position controllers for UR5 Robots.</li>
+              <li> Developed and maintained the manipulation pipeline (including easy_ur) used for various other projects in the lab.</li>      
+            </ul>
           </p>
 
-          <strong>Research Associate</strong><br />
+          <strong style="font-size: 18px" >Research Associate</strong>
           <p>
-            Robert Bosch Center for Cyber-Physical Systems, Indian Institute of Science, Sept 2020 – Sept 2021, Bangalore, India
-            <br />
-            <i>
-              - Led Team MIT-IISc on the Kuka Innovation Award - AI Challenge 2021.<br />
-              - Designed and fabricated a two finger robot hand which has GelSight tactile sensing on
+            <strong  style="font-size: 16px"> <i>Robert Bosch Center for Cyber-Physical Systems, Indian Institute of Science, 
+              Sept 2020 – Sept 2021, Bangalore, India. </i></strong>
+              <ul style="margin-top:-10px; line-height:1.3;" >
+              <li> Led Team MIT-IISc on the Kuka Innovation Award - AI Challenge 2021.</li>
+              <li> Designed and fabricated a two finger robot hand which has GelSight tactile sensing on
                 the inner surface and close range proximity sensor array on outer
                 surfaces. The hand could perform in-hand object rolling thereby
-                gathering tactile data over extended object surfaces.<br/>
-              - Explored reinforcement learning algorithms to explore and pick up
+                gathering tactile data over extended object surfaces.</li>
+              <li> Explored reinforcement learning algorithms to explore and pick up
                 objects in vision denied environments using tactile & proximity sensing
-                data <br/>
-              - Implemented model free non-prehensile object manipulation techniques on Kuka IIWA robot. <br/>
-              - Trained graduate students on programming Kuka, Motoman robot manipulators and on GelSight fabrication. <br/>
-            </i>
+                data. </li>
+              <li>Implemented model free non-prehensile object manipulation techniques on Kuka IIWA robot. </li>
+              </li> Trained graduate students on programming Kuka, Motoman robot manipulators and on GelSight 
+              fabrication. </li>
+            </ul>
           </p>
 
-          <strong>Visiting Research Student/Associate</strong><br />
+          <strong style="font-size: 18px">Visiting Research Student/Associate</strong>
           <p>
-            Massachusetts Institute of Technology, Oct 2018 – Oct 2019, Cambridge, USA
-            <br />
-            <i>
-              - Designed a fully actuated robot hand with multi-sensory feedback,
+            <strong  style="font-size: 16px"> <i>Perceptual Science group, CSAIL, Massachusetts Institute of Technology, Oct 2018 – Oct 2019, Cambridge, USA
+              </i></strong>
+            <ul style="margin-top:-10px; line-height:1.3;" >
+            <li> Designed a fully actuated robot hand with multi-sensory feedback,
                 including multiple GelSight tactile sensors. It involved design of the
                 mechanical system, electronics and software for data capture and
-                processing. <br/>
-            </i>
+                processing. </li>
+            </ul>
           </p>
 
-          <strong>Co-Founder & Chief Technology Officer</strong><br />
+          <strong style="font-size: 18px">Co-Founder & Chief Technology Officer</strong>
           <p>
-            Sastra Robotics, Aug 2013 – Sep 2018, Cochin, India
-            <br />
-            <i>
-              - As the technical co-founder, designed and built the drive systems,
+            <strong  style="font-size: 16px"> <i>Sastra Robotics, Aug 2013 – Sep 2018, Cochin, India
+            </i></strong>
+            <ul style="margin-top:-10px; line-height:1.3;" >
+              <li>  As the technical co-founder, designed and built the drive systems,
                 motion controllers and user software for SCARA and 6 axis robots for
-                  device testing applications<br />
-              - Developed robot force controllers to ensure safety of devices under test
+                  device testing applications</li>
+              <li> Developed robot force controllers to ensure safety of devices under test
                 and a sensorized finger to analyze the haptic feedback generated on
-                touchscreens.<br />
-              - Created computer vision systems to analyze device states from LCD
-              screens, dials, switches, knobs etc<br />
-              - These robots helped OEM clients in reduction
-              of device testing time by upto 70%<br />
-            </i>
+                touchscreens.</li>
+              <li> Created computer vision systems to analyze device states from LCD
+              screens, dials, switches, knobs etc</li>
+              <li> These robots helped OEM clients in reduction
+              of device testing time by upto 70%</li>
+              </ul>
           </p>
 
-          <strong>Robotics Software Engineer</strong><br />
+          <strong style="font-size: 18px">Robotics Software Engineer</strong>
           <p>
-            Asimov Robotics (Energid technologies), June 2012 – July 2013, Cochin, India
-            <br />
-            <i>
-              - Developed ROS & LabVIEW interfaces for Cyton Gamma 7DOF
-                manipulator through Energid Actin framework <br />
-              - Designed electrical subsystems, motor controllers and sensor interfaces
-                for a humanoid social robot.<br />
-              - Implemented ROS based manipulation pipeline for a custom bi-manual
-                dexterous manipulator<br />
-            </i>
+            <strong  style="font-size: 16px"> <i>Asimov Robotics (Energid technologies), June 2012 – July 2013, Cochin, India
+            </i></strong>
+            <ul style="margin-top:-10px; line-height:1.3;" >
+              <li>Developed ROS & LabVIEW interfaces for Cyton Gamma 7DOF
+                manipulator through Energid Actin framework. </li>
+              <li> Designed electrical subsystems, motor controllers and sensor interfaces
+                for a humanoid social robot.</li>
+              <li> Implemented ROS based manipulation pipeline for a custom bi-manual
+                dexterous manipulator.</li>
+            </ul>
           </p>
 
 
@@ -230,46 +246,44 @@ My skills include research, programming - real time embedded systems, computer v
       </div>
 
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-12">
           <h2 id="publications">Publications</h2>
 
           <!--strong>Selected peer-reviewed papers</strong><br /-->
-          <ul>
+          <ul  style="font-size: 17px">
             <li class="paper">
-              <a href="" target="_blank"
-                >Cable Routing and Assembly using Tactile-driven Motion Primitives. </a
-              >
+              <strong><a href="" target="_blank"
+                >Cable Routing and Assembly using Tactile-driven Motion Primitives. </a> </strong>
               Achu Wilson, Helen Jiang, Wenzhao Lian, Wenzhen Yuan (accepted for
                IEEE International Conference on Robotics & Automation (ICRA), London, 2023)
                <a href="https://youtu.be/_F0kCjBgxD0" target="_blank" > <strong style="color:green;">VIDEO </strong> </a>
             </li>
             <li class="paper">
-              <a href="papers/2019-gelsighthand-iros.pdf" target="_blank"
-                > Design of a Fully Actuated Robotic Hand With Multiple Gelsight Tactile Sensors. </a
-              >
+              <strong> <a href="papers/2019-gelsighthand-iros.pdf" target="_blank"
+                > Design of a Fully Actuated Robotic Hand With Multiple Gelsight Tactile Sensors. </a></strong>
                Achu Wilson, Shaoxiong Wang, Branden Romero, Edward Adelson, RoboTac Workshop,
                International Conference on Intelligent Robotics and Systems (IROS), Macau, 2019
                <a href="https://youtu.be/4hxsZ9nHJWI" target="_blank" > <strong style="color:green;">VIDEO </strong> </a>
             </li>
             <li class="paper">
-              <a href="papers/2019-sim2real-icra.pdf" target="_blank"
-                > GelSight Simulation for Sim2Real Learning.</a
-              >
+              <strong> <a href="papers/2019-sim2real-icra.pdf" target="_blank"
+                > GelSight Simulation for Sim2Real Learning.</a></strong>
+              
                Daniel Fernandes Gomes, Achu Wilson, Shan Luo, ViTac Workshop,
                IEEE International Conference on Robotics & Automation (ICRA), Montreal, 2019.
             </li>
             <li class="paper">
-              <a href="papers/2017-mr-clutch-icra.pdf" target="_blank"
+              <strong><a href="papers/2017-mr-clutch-icra.pdf" target="_blank"
                 > Design and Development of a Magneto-Rheological Linear Clutch for Force
-                controlled Human Safe Robots. </a
-              >
+                controlled Human Safe Robots. </a></strong>
+              
               Achu Wilson, IEEE International Conference on Robotics & Automation (ICRA), Singapore, 2017.
                <a href="https://youtu.be/ES0q4eb1TYo" target="_blank" >  <strong style="color:green;">VIDEO </strong> </a>
             </li>
             <li class="patent">
-              <a href="https://patents.google.com/patent/WO2017051263A2/en" target="_blank"
-                > Robot arm for testing of touchscreen applications</a
-              >
+              <strong><a href="https://patents.google.com/patent/WO2017051263A2/en" target="_blank"
+                > Robot arm for testing of touchscreen applications</a></strong>
+              
                Achu Wilson, Aronin P, Akhil A, International Patent, WO2017051263A3
             </li>
           </ul>
@@ -286,8 +300,8 @@ My skills include research, programming - real time embedded systems, computer v
               <video  class="img-responsive " autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="object-fit: fill" >
                 <source src="images/pivotmanip.mp4" type="video/mp4"  />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong> Non-Prehensile Pivoting for Manipulation of Heavy Objects</Strong>
                   Inspired by the way humans move big and heavy objects, this project explored techniques for the manipulation of objects heavier than the
                   payload of robot manipulators. Objects could be manipulated using pivoting actions which maintain edge or line contacts with the surface.  Analytical solutions were developed as part of the CMU 16-741 Mechanics of Manipulation class while reinforcement learning based solutions
@@ -308,8 +322,8 @@ My skills include research, programming - real time embedded systems, computer v
               <source src="images/cableroute.mp4" type="video/mp4"  />
             </video>
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong>Cable Routing and Assembly using Tactile-driven Motion Primitives</strong>
 
                 In this project we integrated tactile-guided low-level
@@ -335,8 +349,8 @@ My skills include research, programming - real time embedded systems, computer v
             <div class="col-md-4">
               <img class="img-responsive" src="images/easygui.png" alt="" /><br />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <br>
                 <strong> <a href="https://github.com/achuwilson/easy_ur" target="_blank" > Easy_UR</a></strong>
 
@@ -362,8 +376,8 @@ My skills include research, programming - real time embedded systems, computer v
                 <source  src="images/boxpivot.mp4" type="video/mp4"  />
               </a>
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
 
                 <strong> <a href="posts/edgepivot.html"  >Non-Prehensile manipulation for pivoting around corners without slipping. </a> </strong>
                 
@@ -384,8 +398,8 @@ My skills include research, programming - real time embedded systems, computer v
               <video  class="img-responsive " autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="object-fit: fill" >
                 <source src="images/rollfinger.mp4" type="video/mp4"  />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong> Gripper with in-hand rolling, tactile and proximity sensing</strong><br>
                 Developed for the Kuka Innovation Award, AI Challenge 2021, this 3 DOF gripper has two GelSight tactile sensors on the inner surface and an array of proximity sensors on the outser surface. Both the fingers 
                 can be independently extracted/retracted thereby making the hand dexterous enough to do simple in hand-rolling of objects. This is used to capture a rich tactile data over a larger surface which cannot be done using a single contact.
@@ -402,8 +416,8 @@ My skills include research, programming - real time embedded systems, computer v
               <video  class="img-responsive " autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="object-fit: fill" >
                 <source src="images/fingervision_fgseg.mp4" type="video/mp4"  />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong> Background Segmentation for FingerVision tactile sensor</strong>
                 FingerVision is an optical tactile sensor which provides the RGB image of the object within the fingers in addition to the contact forces from the optical markers. Since the sensor captures the 
                 background also in addition to the object, there exists the need to remove the background. A deep learning approach is used to segment the objects and the background. Training data is collected,
@@ -420,8 +434,8 @@ My skills include research, programming - real time embedded systems, computer v
               <video  class="img-responsive " autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="object-fit: fill" >
                 <source src="images/chero.mp4" type="video/mp4"  />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong>Quasi Direct Drive Manipulator</strong>
                 Another personal project which provided me with lots of interesting challenges and learning oppertunities. The attempt to build a backdrivable quasi direct drive robot arm from grounds up was motivated by the easy
                 availability of high torque BLDC motors, controllers and projects such as Berkeley Blue robot arm. The 7DOF robot has a spherical shoulder and a spherical wrist (not shown in video) making it dexterous. The project 
@@ -440,8 +454,8 @@ My skills include research, programming - real time embedded systems, computer v
               <video  class="img-responsive " autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="object-fit: fill" >
                 <source src="images/gelsighthand.mp4" type="video/mp4"  />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong>Fully Actuated Robotic Hand With Multiple Gelsight Tactile Sensors</strong>
                 This work details the design of a novel two fin ger robot gripper with multiple Gelsight based optical-tactilesensors covering the inner surface of the hand. The multiple
                 Gelsight sensors can gather the surface topology of the object
@@ -463,8 +477,8 @@ My skills include research, programming - real time embedded systems, computer v
             <div class="col-md-4">
               <img class="img-responsive" src="images/sim2real.jpg" alt="" /><br />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong>GelSight Simulation for Sim2Real Learning.</strong>
                 We introduce a novel approach for
                   simulating a GelSight tactile sensor in the commonly used Gazebo
@@ -486,8 +500,8 @@ My skills include research, programming - real time embedded systems, computer v
               <video  class="img-responsive " autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="object-fit: fill" >
                 <source src="images/gelsightsim.mp4" type="video/mp4"  />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong> Simulation of GelSight 3D reconstruction </strong>
                 This is one of the earliest works in simulating the behaviour of GelSight in a robotics simulator.
                 The contact surface reconstruction capabilities of GelSight is simulated using raytracing techniques.
@@ -506,8 +520,8 @@ My skills include research, programming - real time embedded systems, computer v
               <video  class="img-responsive " autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="object-fit: fill" >
                 <source src="images/mrclutch.mp4" type="video/mp4"  /> 
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong>Magneto-Rheological Linear Clutch</strong>
                 This paper
                   introduces a MR clutch which can control the force transmitted
@@ -532,8 +546,8 @@ My skills include research, programming - real time embedded systems, computer v
                 <source src="images/cable_classifier.mp4" type="video/mp4"  />
               </a>
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong> <a href="papers/2021-cable_flexibility.pdf" target="_blank" >Predicting the Flexibility of Electric Cables using Robot Tactile Sensing and
                   Push Primitives </a> </strong>
                   This project, which was done as a part of the CMU-24787 AI&ML class explored various ML techniques 
@@ -552,8 +566,8 @@ My skills include research, programming - real time embedded systems, computer v
             <div class="col-md-4">
               <img class="img-responsive" src="images/delta_rob.jpg" alt="" /><br />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong>Improving the accuracy of DeltaZ robot using Machine Learning</strong>
                 DeltaZ is an affordable, compliant, delta style, centimeter scale robot developed to teach the ideas of manipulation.
                 This project developed methods to improve the accuracy of the robot by modelling for the errors using a neural network.
@@ -572,8 +586,8 @@ My skills include research, programming - real time embedded systems, computer v
               <video  class="img-responsive " autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="object-fit: fill" >
                 <source src="images/2048.mp4" type="video/mp4"  />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong>Superhuman scores on the 2048 game using a Robot</strong>
                 This was a weekend project where I tried to use a sr-scara robot, computer vision, and AI techniques to play the popular 2048 game on a smartphone.
                 The smartphone screenshot was captured using ADB, analyzed using OpenCV and a min-max algorithm was used to predict the next move. The robot then executed the move on
@@ -590,8 +604,8 @@ My skills include research, programming - real time embedded systems, computer v
               <video  class="img-responsive " autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="object-fit: fill" >
                 <source src="images/sr_6d.mp4" type="video/mp4"  />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong> SR-6D </strong>
                 SR-6D is a lightweight manipulator aimed for small parts picking and research purposes developed at Sastra Robotics. I helped design the mechanics, developed the low level electronics,
                 control software, high level kinematics, trajectory generation, GUI and API interfaces. 
@@ -608,8 +622,8 @@ My skills include research, programming - real time embedded systems, computer v
               <video  class="img-responsive " autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="object-fit: fill" >
                 <source src="images/sr_scara.mp4" type="video/mp4"  />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong> SR-SCARA.</strong>
                 SR-SCARA was developed for high speed functional testing
                 of devices with HMI interfaces such as touchscreens, button setc. I helped design the mechanics, developed the low level electronics,
@@ -627,8 +641,8 @@ My skills include research, programming - real time embedded systems, computer v
               <video  class="img-responsive " autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="object-fit: fill" >
                 <source src="images/chippu.mp4" type="video/mp4"  />
             </div>
-            <div class="col-md-6">
-              <p align="justify">
+            <div class="col-md-8">
+              <p align="justify" style="font-size:17px">
                 <strong> My first robot:  </strong>
                 Inspired after attending a talk on ROS and watching Wall-E, I built this robot around 2010 as a way to get started with ROS. Learned how to make low level hardware
                 communicate with ROS and got familiar with the high level tools in ROS. Trained voice control using CMU Sphinx and later implemented autonomous indoor SLAM navigation using the 
@@ -649,14 +663,13 @@ My skills include research, programming - real time embedded systems, computer v
 
 
        <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-12">
           <h2 id="blog">Blog</h2>
 
-          <ul>
-            <li>I'm on the job market and am looking for positions globally starting in mid-2023. Please let me know if you interested in having a discussion!
-            </li>
-            <li><strong>[June 2017] </strong> Our new paper (Cable Routing and Assembly using Tactile-driven Motion Primitives) is accepted for ICRA 2023. Preprints coming out soon!</li>
-            <li><strong>[June 2016]  <a href="posts/icra16.html"  > Attending ICRA for the fist time and winning the HRATC challenge</a></li>
+          <ul  style="font-size: 18px">
+            
+            <li>[June 2016]  <a href="posts/icra16.html"  > Attending ICRA for the fist time and winning the HRATC challenge</a> </li>
+            
           </ul> 
 
         </div>
